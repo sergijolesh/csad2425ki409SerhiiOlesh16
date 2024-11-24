@@ -1,0 +1,62 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches:
+      - feature/develop/task2
+  pull_request:
+    branches:
+      - develop
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'
+      
+      - name: Restore dependencies
+        run: dotnet restore -- ./Client/Client
+
+      - name: Build Client project
+        run: dotnet build ./Client/Client --configuration Debug --output ./CI/build/client
+
+      - name: Run NUnit tests
+        run: dotnet test ./Client --no-build --configuration Debug --logger "console;verbosity=detailed" > ./CI/tests
+
+      - name: Create client build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: client-binaries
+          path: ./CI/build/client
+
+      - name: Create tests' artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: tests
+          path: ./CI/tests
+
+      - name: Setup Arduino CLI
+        uses: arduino/setup-arduino-cli@v2
+        with:
+          version: '0.32.2'
+  
+      - name: Install Arduino AVR Core
+        run: |
+          arduino-cli core update-index
+          arduino-cli core install arduino:avr
+  
+      - name: Compile Arduino Sketch
+        run: arduino-cli compile --fqbn arduino:avr:uno ./Server/Server.ino --output-dir ./CI/build/server
+
+      - name: Create server build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: server-binaries
+          path: ./CI/build/server

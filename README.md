@@ -19,3 +19,21 @@ The point of this course is to create a simple game using hardware and software.
 - Programming Language: C#
 - Hardware Platform: Arduino UNO R3
 - Development Tools: Arduino IDE, Git, GitHub
+
+## Build Instructions
+1. Clone the repository
+```
+git clone https://github.com/sergijolesh/csad2425ki409SerhiiOlesh16.git
+```
+2. Checkout to required branch
+```
+git checkout feature/develop/task2
+```
+3. Run Server.ino in Arduino IDE to setup the board
+4. Run Client in Visual Studio
+
+### Expected Output
+```
+Sent to server: Hello, Server!
+Received from server: Hello, Server! Hello, client!
+```
