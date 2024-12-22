@@ -84,3 +84,8 @@ C:\Users\serhi\Desktop\csad2425ki409SerhiiOlesh16\Client\Client\obj\Debug\net8.0
 C:\Users\serhi\Desktop\csad2425ki409SerhiiOlesh16\Client\Client\obj\Debug\net8.0\ref\Client.dll
 C:\Users\serhi\Desktop\csad2425ki409SerhiiOlesh16\Client\Client\bin\Debug\net8.0\nunit.framework.dll
 C:\Users\serhi\Desktop\csad2425ki409SerhiiOlesh16\Client\Client\bin\Debug\net8.0\nunit.framework.legacy.dll
+C:\Users\serhi\Desktop\csad2425ki409SerhiiOlesh16\CI\build\client\Client.exe
+C:\Users\serhi\Desktop\csad2425ki409SerhiiOlesh16\CI\build\client\Client.deps.json
+C:\Users\serhi\Desktop\csad2425ki409SerhiiOlesh16\CI\build\client\Client.runtimeconfig.json
+C:\Users\serhi\Desktop\csad2425ki409SerhiiOlesh16\CI\build\client\Client.dll
+C:\Users\serhi\Desktop\csad2425ki409SerhiiOlesh16\CI\build\client\Client.pdb

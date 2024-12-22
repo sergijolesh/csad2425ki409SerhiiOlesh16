@@ -3,7 +3,7 @@ name: CI Pipeline
 on:
   push:
     branches:
-      - feature/develop/task2
+      - feature/develop/task3
   pull_request:
     branches:
       - develop
@@ -22,10 +22,10 @@ jobs:
           dotnet-version: '8.0.x'
       
       - name: Restore dependencies
-        run: dotnet restore -- ./Client/Client
+        run: dotnet restore --property:EnableWindowsTargeting=true ./Client/Client
 
       - name: Build Client project
-        run: dotnet build ./Client/Client --configuration Debug --output ./CI/build/client
+        run: dotnet build --property:EnableWindowsTargeting=true ./Client/Client --configuration Debug --output ./CI/build/client
 
       - name: Run NUnit tests
         run: dotnet test ./Client --no-build --configuration Debug --logger "console;verbosity=detailed" > ./CI/tests

@@ -13,7 +13,7 @@ The point of this course is to create a simple game using hardware and software.
 ### Play modes:
 - Man vs AI
 - Man vs Man
-- AI vs AI (random move and win strategy)
+- AI vs AI
 
 ## Technology Stack
 - Programming Language: C#
@@ -27,13 +27,8 @@ git clone https://github.com/sergijolesh/csad2425ki409SerhiiOlesh16.git
 ```
 2. Checkout to required branch
 ```
-git checkout feature/develop/task2
+git checkout feature/develop/task3
 ```
 3. Run Server.ino in Arduino IDE to setup the board
 4. Run Client in Visual Studio
 
-### Expected Output
-```
-Sent to server: Hello, Server!
-Received from server: Hello, Server! Hello, client!
-```

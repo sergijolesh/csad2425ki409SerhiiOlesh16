@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SerialClientTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+552ad67135c7647be01cd6da394bc500702309cd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c9e624ec7c35d126698d0f928e9d65250aa3b3c")]
 [assembly: System.Reflection.AssemblyProductAttribute("SerialClientTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SerialClientTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

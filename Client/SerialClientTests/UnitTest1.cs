@@ -19,8 +19,7 @@ namespace Client.Tests
         public void SetUp()
         {
             var mockResponses = new Queue<string>();
-            mockResponses.Enqueue("Hello, Client!");
-            mockResponses.Enqueue("Goodbye, Client!");
+            mockResponses.Enqueue("Received from server: Hello, Client!");
 
             mockSerialPort = new MockSerialPort(mockResponses);
             serialClient = new SerialClient(mockSerialPort);
