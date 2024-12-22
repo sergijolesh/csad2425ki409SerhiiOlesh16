@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="_i_serial_port_8cs" kind="file" language="C#">
+    <compoundname>ISerialPort.cs</compoundname>
+    <innerclass refid="interface_client_1_1_wrapper_1_1_i_serial_port" prot="public">Client::Wrapper::ISerialPort</innerclass>
+    <innerclass refid="class_client_1_1_wrapper_1_1_serial_port_wrapper" prot="public">Client::Wrapper::SerialPortWrapper</innerclass>
+    <innernamespace refid="namespace_client">Client</innernamespace>
+    <innernamespace refid="namespace_client_1_1_wrapper">Client::Wrapper</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.IO.Ports;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="namespace_client_1_1_wrapper" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_client_1_1_wrapper" kindref="compound">Client.Wrapper</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="interface_client_1_1_wrapper_1_1_i_serial_port" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_client_1_1_wrapper_1_1_i_serial_port" kindref="compound">ISerialPort</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_client_1_1_wrapper_1_1_i_serial_port_1a31dcb0feb9ed7015d1738aeda281366e" kindref="member">Open</ref>();</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_client_1_1_wrapper_1_1_i_serial_port_1a79445ab7bcead8f34203ea0580806498" kindref="member">Close</ref>();</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_client_1_1_wrapper_1_1_i_serial_port_1a8cf4f191536d205c68c5a237abf62111" kindref="member">WriteLine</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>message);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="interface_client_1_1_wrapper_1_1_i_serial_port_1a26493501a88b3c5060b541ed3f3dae6a" kindref="member">ReadLine</ref>();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="interface_client_1_1_wrapper_1_1_i_serial_port_1ac858605f94cc3050ac782815907e83a4" kindref="member">IsOpen</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_client_1_1_wrapper_1_1_serial_port_wrapper" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_client_1_1_wrapper_1_1_serial_port_wrapper" kindref="compound">SerialPortWrapper</ref><sp/>:<sp/><ref refid="interface_client_1_1_wrapper_1_1_i_serial_port" kindref="compound">ISerialPort</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>readonly<sp/>SerialPort<sp/><ref refid="class_client_1_1_wrapper_1_1_serial_port_wrapper_1a189c1092d79b7e9d24fcde3de6ab4720" kindref="member">serialPort</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_client_1_1_wrapper_1_1_serial_port_wrapper_1a39054212326d16c316d4895c7598475b" kindref="member">SerialPortWrapper</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>portName,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>baudRate)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_client_1_1_wrapper_1_1_serial_port_wrapper_1a189c1092d79b7e9d24fcde3de6ab4720" kindref="member">serialPort</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SerialPort(portName,<sp/>baudRate);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_client_1_1_wrapper_1_1_serial_port_wrapper_1a791804e1eb2dd2e0877d75a10cd4470b" kindref="member">IsOpen</ref><sp/>=&gt;<sp/><ref refid="class_client_1_1_wrapper_1_1_serial_port_wrapper_1a189c1092d79b7e9d24fcde3de6ab4720" kindref="member">serialPort</ref>.IsOpen;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_client_1_1_wrapper_1_1_serial_port_wrapper_1ad5675649d6bd8a76d70b601d07069d97" kindref="member">Open</ref>()<sp/>=&gt;<sp/><ref refid="class_client_1_1_wrapper_1_1_serial_port_wrapper_1a189c1092d79b7e9d24fcde3de6ab4720" kindref="member">serialPort</ref>.Open();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_client_1_1_wrapper_1_1_serial_port_wrapper_1aa15d876212978fbf41ca391f2e093952" kindref="member">Close</ref>()<sp/>=&gt;<sp/><ref refid="class_client_1_1_wrapper_1_1_serial_port_wrapper_1a189c1092d79b7e9d24fcde3de6ab4720" kindref="member">serialPort</ref>.Close();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_client_1_1_wrapper_1_1_serial_port_wrapper_1ab60ce34334a3447dda230c072227bc9d" kindref="member">WriteLine</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>message)<sp/>=&gt;<sp/><ref refid="class_client_1_1_wrapper_1_1_serial_port_wrapper_1a189c1092d79b7e9d24fcde3de6ab4720" kindref="member">serialPort</ref>.WriteLine(message);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_client_1_1_wrapper_1_1_serial_port_wrapper_1ad2e440ef0c1dd1ab09e8af081f800702" kindref="member">ReadLine</ref>()<sp/>=&gt;<sp/><ref refid="class_client_1_1_wrapper_1_1_serial_port_wrapper_1a189c1092d79b7e9d24fcde3de6ab4720" kindref="member">serialPort</ref>.ReadLine();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="ISerialPort.cs"/>
+  </compounddef>
+</doxygen>

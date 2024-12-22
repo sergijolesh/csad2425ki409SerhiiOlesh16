@@ -45,7 +45,6 @@
             radioManAi.TabStop = true;
             radioManAi.Text = "Man vs AI";
             radioManAi.UseVisualStyleBackColor = true;
-            radioManAi.CheckedChanged += radioButton1_CheckedChanged;
             // 
             // radioManMan
             // 

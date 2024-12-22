@@ -1,0 +1,174 @@
+\doxysection{Client.\+Form2 Class Reference}
+\hypertarget{class_client_1_1_form2}{}\label{class_client_1_1_form2}\index{Client.Form2@{Client.Form2}}
+
+
+Represents the configuration form for selecting game modes.  
+
+
+Inheritance diagram for Client.\+Form2\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_client_1_1_form2}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_client_1_1_form2_afd5e7407d19c67c20744ee39fd2c8b74}{Form2}} ()
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \doxylink{class_client_1_1_form2}{Form2} class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_client_1_1_form2_ae69f0d9a0d50348f6e6f7286de1ecf23}{Dispose}} (bool disposing)
+\begin{DoxyCompactList}\small\item\em Clean up any resources being used. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_client_1_1_form2_a2e36d5d6cfe4c2b43777236d64076ae0}{btn\+Save\+\_\+\+Click}} (object sender, Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Saves the selected configuration to an XML file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_client_1_1_form2_a9cb762bc14d6a4f64f5164d2bd3f88f4}{btn\+Load\+\_\+\+Click}} (object sender, Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Loads the saved configuration from an XML file and updates the UI. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_client_1_1_form2_a5903e4c321c3575618f35a90328cbc36}{Initialize\+Component}} ()
+\begin{DoxyCompactList}\small\item\em Required method for Designer support -\/ do not modify the contents of this method with the code editor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+System.\+Component\+Model.\+IContainer \mbox{\hyperlink{class_client_1_1_form2_a148df06fede9fc34e0c327ca6aafada1}{components}} = null
+\begin{DoxyCompactList}\small\item\em Required designer variable. \end{DoxyCompactList}\item 
+Radio\+Button \mbox{\hyperlink{class_client_1_1_form2_ae4e0dcdee758fff324725778efddef61}{radio\+Man\+Ai}}
+\item 
+Radio\+Button \mbox{\hyperlink{class_client_1_1_form2_a1d425d2d014dd8901500bbf0d4b4c0dd}{radio\+Man\+Man}}
+\item 
+Radio\+Button \mbox{\hyperlink{class_client_1_1_form2_abc56dd5cdf48f75d4f41575e891991b0}{radio\+Ai\+Ai}}
+\item 
+Button \mbox{\hyperlink{class_client_1_1_form2_ac93435f85694c7ab419c39785a14f071}{btn\+Save}}
+\item 
+Button \mbox{\hyperlink{class_client_1_1_form2_a8e5d6439541a130137680af24f5dc5fb}{btn\+Load}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents the configuration form for selecting game modes. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_client_1_1_form2_afd5e7407d19c67c20744ee39fd2c8b74}\index{Client.Form2@{Client.Form2}!Form2@{Form2}}
+\index{Form2@{Form2}!Client.Form2@{Client.Form2}}
+\doxysubsubsection{\texorpdfstring{Form2()}{Form2()}}
+{\footnotesize\ttfamily \label{class_client_1_1_form2_afd5e7407d19c67c20744ee39fd2c8b74} 
+Client.\+Form2.\+Form2 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Initializes a new instance of the \doxylink{class_client_1_1_form2}{Form2} class. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_client_1_1_form2_a9cb762bc14d6a4f64f5164d2bd3f88f4}\index{Client.Form2@{Client.Form2}!btnLoad\_Click@{btnLoad\_Click}}
+\index{btnLoad\_Click@{btnLoad\_Click}!Client.Form2@{Client.Form2}}
+\doxysubsubsection{\texorpdfstring{btnLoad\_Click()}{btnLoad\_Click()}}
+{\footnotesize\ttfamily \label{class_client_1_1_form2_a9cb762bc14d6a4f64f5164d2bd3f88f4} 
+void Client.\+Form2.\+btn\+Load\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender}{, }\item[{Event\+Args}]{e}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Loads the saved configuration from an XML file and updates the UI. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & Event arguments.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_client_1_1_form2_a2e36d5d6cfe4c2b43777236d64076ae0}\index{Client.Form2@{Client.Form2}!btnSave\_Click@{btnSave\_Click}}
+\index{btnSave\_Click@{btnSave\_Click}!Client.Form2@{Client.Form2}}
+\doxysubsubsection{\texorpdfstring{btnSave\_Click()}{btnSave\_Click()}}
+{\footnotesize\ttfamily \label{class_client_1_1_form2_a2e36d5d6cfe4c2b43777236d64076ae0} 
+void Client.\+Form2.\+btn\+Save\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender}{, }\item[{Event\+Args}]{e}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Saves the selected configuration to an XML file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sender} & The source of the event.\\
+\hline
+{\em e} & Event arguments.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_client_1_1_form2_ae69f0d9a0d50348f6e6f7286de1ecf23}\index{Client.Form2@{Client.Form2}!Dispose@{Dispose}}
+\index{Dispose@{Dispose}!Client.Form2@{Client.Form2}}
+\doxysubsubsection{\texorpdfstring{Dispose()}{Dispose()}}
+{\footnotesize\ttfamily \label{class_client_1_1_form2_ae69f0d9a0d50348f6e6f7286de1ecf23} 
+override void Client.\+Form2.\+Dispose (\begin{DoxyParamCaption}\item[{bool}]{disposing}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+
+
+Clean up any resources being used. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em disposing} & true if managed resources should be disposed; otherwise, false.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_client_1_1_form2_a5903e4c321c3575618f35a90328cbc36}\index{Client.Form2@{Client.Form2}!InitializeComponent@{InitializeComponent}}
+\index{InitializeComponent@{InitializeComponent}!Client.Form2@{Client.Form2}}
+\doxysubsubsection{\texorpdfstring{InitializeComponent()}{InitializeComponent()}}
+{\footnotesize\ttfamily \label{class_client_1_1_form2_a5903e4c321c3575618f35a90328cbc36} 
+void Client.\+Form2.\+Initialize\+Component (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Required method for Designer support -\/ do not modify the contents of this method with the code editor. 
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_client_1_1_form2_a8e5d6439541a130137680af24f5dc5fb}\index{Client.Form2@{Client.Form2}!btnLoad@{btnLoad}}
+\index{btnLoad@{btnLoad}!Client.Form2@{Client.Form2}}
+\doxysubsubsection{\texorpdfstring{btnLoad}{btnLoad}}
+{\footnotesize\ttfamily \label{class_client_1_1_form2_a8e5d6439541a130137680af24f5dc5fb} 
+Button Client.\+Form2.\+btn\+Load\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_client_1_1_form2_ac93435f85694c7ab419c39785a14f071}\index{Client.Form2@{Client.Form2}!btnSave@{btnSave}}
+\index{btnSave@{btnSave}!Client.Form2@{Client.Form2}}
+\doxysubsubsection{\texorpdfstring{btnSave}{btnSave}}
+{\footnotesize\ttfamily \label{class_client_1_1_form2_ac93435f85694c7ab419c39785a14f071} 
+Button Client.\+Form2.\+btn\+Save\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_client_1_1_form2_a148df06fede9fc34e0c327ca6aafada1}\index{Client.Form2@{Client.Form2}!components@{components}}
+\index{components@{components}!Client.Form2@{Client.Form2}}
+\doxysubsubsection{\texorpdfstring{components}{components}}
+{\footnotesize\ttfamily \label{class_client_1_1_form2_a148df06fede9fc34e0c327ca6aafada1} 
+System.\+Component\+Model.\+IContainer Client.\+Form2.\+components = null\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Required designer variable. 
+
+\Hypertarget{class_client_1_1_form2_abc56dd5cdf48f75d4f41575e891991b0}\index{Client.Form2@{Client.Form2}!radioAiAi@{radioAiAi}}
+\index{radioAiAi@{radioAiAi}!Client.Form2@{Client.Form2}}
+\doxysubsubsection{\texorpdfstring{radioAiAi}{radioAiAi}}
+{\footnotesize\ttfamily \label{class_client_1_1_form2_abc56dd5cdf48f75d4f41575e891991b0} 
+Radio\+Button Client.\+Form2.\+radio\+Ai\+Ai\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_client_1_1_form2_ae4e0dcdee758fff324725778efddef61}\index{Client.Form2@{Client.Form2}!radioManAi@{radioManAi}}
+\index{radioManAi@{radioManAi}!Client.Form2@{Client.Form2}}
+\doxysubsubsection{\texorpdfstring{radioManAi}{radioManAi}}
+{\footnotesize\ttfamily \label{class_client_1_1_form2_ae4e0dcdee758fff324725778efddef61} 
+Radio\+Button Client.\+Form2.\+radio\+Man\+Ai\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_client_1_1_form2_a1d425d2d014dd8901500bbf0d4b4c0dd}\index{Client.Form2@{Client.Form2}!radioManMan@{radioManMan}}
+\index{radioManMan@{radioManMan}!Client.Form2@{Client.Form2}}
+\doxysubsubsection{\texorpdfstring{radioManMan}{radioManMan}}
+{\footnotesize\ttfamily \label{class_client_1_1_form2_a1d425d2d014dd8901500bbf0d4b4c0dd} 
+Radio\+Button Client.\+Form2.\+radio\+Man\+Man\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_form2_8cs}{Form2.\+cs}}\item 
+\mbox{\hyperlink{_form2_8_designer_8cs}{Form2.\+Designer.\+cs}}\end{DoxyCompactItemize}

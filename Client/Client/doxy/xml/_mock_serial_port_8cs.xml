@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="_mock_serial_port_8cs" kind="file" language="C#">
+    <compoundname>MockSerialPort.cs</compoundname>
+    <innerclass refid="class_client_1_1_mock_1_1_mock_serial_port" prot="public">Client::Mock::MockSerialPort</innerclass>
+    <innernamespace refid="namespace_client">Client</innernamespace>
+    <innernamespace refid="namespace_client_1_1_mock">Client::Mock</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_client" kindref="compound">Client</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_client_1_1_wrapper" kindref="compound">Client.Wrapper</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="namespace_client_1_1_mock" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_client_1_1_mock" kindref="compound">Client.Mock</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="class_client_1_1_mock_1_1_mock_serial_port" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_client_1_1_mock_1_1_mock_serial_port" kindref="compound">MockSerialPort</ref><sp/>:<sp/><ref refid="interface_client_1_1_wrapper_1_1_i_serial_port" kindref="compound">ISerialPort</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_client_1_1_mock_1_1_mock_serial_port_1ae47141ecda6b35a95f8aa327c65fc852" kindref="member">isOpen</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>readonly<sp/>Queue&lt;string&gt;<sp/><ref refid="class_client_1_1_mock_1_1_mock_serial_port_1a0705ca5546e13ee62a26445d73e3fef1" kindref="member">responses</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_client_1_1_mock_1_1_mock_serial_port_1a8a60028a23970a14adc8b04c73696d29" kindref="member">MockSerialPort</ref>(Queue&lt;string&gt;<sp/><ref refid="class_client_1_1_mock_1_1_mock_serial_port_1a0705ca5546e13ee62a26445d73e3fef1" kindref="member">responses</ref>)<sp/>{<sp/>this.responses<sp/>=<sp/><ref refid="class_client_1_1_mock_1_1_mock_serial_port_1a0705ca5546e13ee62a26445d73e3fef1" kindref="member">responses</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_client_1_1_mock_1_1_mock_serial_port_1a82fe3442b1fe5784b429c99720c0e322" kindref="member">IsOpen</ref><sp/>=&gt;<sp/>this.<ref refid="class_client_1_1_mock_1_1_mock_serial_port_1ae47141ecda6b35a95f8aa327c65fc852" kindref="member">isOpen</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_client_1_1_mock_1_1_mock_serial_port_1a698c2f42f611a8fbf8a2a0d4640cffab" kindref="member">Open</ref>()<sp/>{<sp/>isOpen<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_client_1_1_mock_1_1_mock_serial_port_1a9d7dd1511dac1c746e08f0aa02ac2dd7" kindref="member">Close</ref>()<sp/>{<sp/><ref refid="class_client_1_1_mock_1_1_mock_serial_port_1ae47141ecda6b35a95f8aa327c65fc852" kindref="member">isOpen</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_client_1_1_mock_1_1_mock_serial_port_1a5722470dfe676b8306b5f791f0154a48" kindref="member">WriteLine</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>message)<sp/>{<sp/>Console.<ref refid="interface_client_1_1_wrapper_1_1_i_serial_port_1a8cf4f191536d205c68c5a237abf62111" kindref="member">WriteLine</ref>($</highlight><highlight class="stringliteral">&quot;Mock<sp/>WriteLine:<sp/>{message}&quot;</highlight><highlight class="normal">);<sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_client_1_1_mock_1_1_mock_serial_port_1ac018cc1e02551fd263b0e7a89106d889" kindref="member">ReadLine</ref>()</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_client_1_1_mock_1_1_mock_serial_port_1a0705ca5546e13ee62a26445d73e3fef1" kindref="member">responses</ref>.Count<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_client_1_1_mock_1_1_mock_serial_port_1a0705ca5546e13ee62a26445d73e3fef1" kindref="member">responses</ref>.Dequeue();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Thread.Sleep(100);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>TimeoutException(</highlight><highlight class="stringliteral">&quot;Mock<sp/>timeout.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="MockSerialPort.cs"/>
+  </compounddef>
+</doxygen>

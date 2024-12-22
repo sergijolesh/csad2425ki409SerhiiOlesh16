@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['btnconfig_0',['btnConfig',['../class_client_1_1_form1.html#a720af40cf580c9c5c63379dc71c75c86',1,'Client::Form1']]],
+  ['btnconfig_5fclick_1',['btnConfig_Click',['../class_client_1_1_form1.html#a41e426e3834064f4aeff24f941b79525',1,'Client::Form1']]],
+  ['btnload_2',['btnLoad',['../class_client_1_1_form2.html#a8e5d6439541a130137680af24f5dc5fb',1,'Client::Form2']]],
+  ['btnload_5fclick_3',['btnLoad_Click',['../class_client_1_1_form2.html#a9cb762bc14d6a4f64f5164d2bd3f88f4',1,'Client::Form2']]],
+  ['btnpaperone_4',['btnPaperOne',['../class_client_1_1_form1.html#a1065d4c257beea04ea4f364427602b29',1,'Client::Form1']]],
+  ['btnpaperone_5fclick_5',['btnPaperOne_Click',['../class_client_1_1_form1.html#a1b0be631fa2851885cece0f6b41b2070',1,'Client::Form1']]],
+  ['btnpapertwo_6',['btnPaperTwo',['../class_client_1_1_form1.html#af9bfe43c77e2a8e22dc680e5c19f5ef1',1,'Client::Form1']]],
+  ['btnpapertwo_5fclick_7',['btnPaperTwo_Click',['../class_client_1_1_form1.html#ae6f7802cdb51a3182829d720fbe81029',1,'Client::Form1']]],
+  ['btnrockone_8',['btnRockOne',['../class_client_1_1_form1.html#af08005b3c27d990549922c026491c434',1,'Client::Form1']]],
+  ['btnrockone_5fclick_9',['btnRockOne_Click',['../class_client_1_1_form1.html#a77a903706812b496f06a9bd3276a6f1a',1,'Client::Form1']]],
+  ['btnrocktwo_10',['btnRockTwo',['../class_client_1_1_form1.html#a379a0edc20d913879ae7055e387a69f3',1,'Client::Form1']]],
+  ['btnrocktwo_5fclick_11',['btnRockTwo_Click',['../class_client_1_1_form1.html#a6a6de04e535f41105483db945ff9919c',1,'Client::Form1']]],
+  ['btnsave_12',['btnSave',['../class_client_1_1_form2.html#ac93435f85694c7ab419c39785a14f071',1,'Client::Form2']]],
+  ['btnsave_5fclick_13',['btnSave_Click',['../class_client_1_1_form2.html#a2e36d5d6cfe4c2b43777236d64076ae0',1,'Client::Form2']]],
+  ['btnscissorsone_14',['btnScissorsOne',['../class_client_1_1_form1.html#a30d297953edf8d757b0234ccc627642e',1,'Client::Form1']]],
+  ['btnscissorsone_5fclick_15',['btnScissorsOne_Click',['../class_client_1_1_form1.html#a3791a2f228cea60ef1fa370aed308676',1,'Client::Form1']]],
+  ['btnscissorstwo_16',['btnScissorsTwo',['../class_client_1_1_form1.html#a768dd319ba83466854d0475c34249fe2',1,'Client::Form1']]],
+  ['btnscissorstwo_5fclick_17',['btnScissorsTwo_Click',['../class_client_1_1_form1.html#a3640ac34f381047b60c8d3b06a3bc9d5',1,'Client::Form1']]],
+  ['btnshow_18',['btnShow',['../class_client_1_1_form1.html#a3d5bdddace4e58c76418106609df13b5',1,'Client::Form1']]],
+  ['btnshow_5fclick_19',['btnShow_Click',['../class_client_1_1_form1.html#a96d947cef8e6d5a771376bc0abbd0453',1,'Client::Form1']]]
+];

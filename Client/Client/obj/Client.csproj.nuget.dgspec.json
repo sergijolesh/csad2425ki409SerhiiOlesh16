@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\serhi\\Desktop\\csad2425ki409SerhiiOlesh16\\Client\\Client\\Client.csproj": {}
+    "C:\\Users\\serhi\\Desktop\\dev\\Client\\Client\\Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\serhi\\Desktop\\csad2425ki409SerhiiOlesh16\\Client\\Client\\Client.csproj": {
+    "C:\\Users\\serhi\\Desktop\\dev\\Client\\Client\\Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\serhi\\Desktop\\csad2425ki409SerhiiOlesh16\\Client\\Client\\Client.csproj",
+        "projectUniqueName": "C:\\Users\\serhi\\Desktop\\dev\\Client\\Client\\Client.csproj",
         "projectName": "Client",
-        "projectPath": "C:\\Users\\serhi\\Desktop\\csad2425ki409SerhiiOlesh16\\Client\\Client\\Client.csproj",
+        "projectPath": "C:\\Users\\serhi\\Desktop\\dev\\Client\\Client\\Client.csproj",
         "packagesPath": "C:\\Users\\serhi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\serhi\\Desktop\\csad2425ki409SerhiiOlesh16\\Client\\Client\\obj\\",
+        "outputPath": "C:\\Users\\serhi\\Desktop\\dev\\Client\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

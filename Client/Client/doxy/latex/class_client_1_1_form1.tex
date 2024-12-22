@@ -1,0 +1,528 @@
+\doxysection{Client.\+Form1 Class Reference}
+\hypertarget{class_client_1_1_form1}{}\label{class_client_1_1_form1}\index{Client.Form1@{Client.Form1}}
+
+
+Represents the main form of the application.  
+
+
+Inheritance diagram for Client.\+Form1\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_client_1_1_form1}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_client_1_1_form1_a5e6bc7be3aa013055d688d37d474365f}{Form1}} ()
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \doxylink{class_client_1_1_form1}{Form1} class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_client_1_1_form1_a8c1d51c8b86be3070839f09ff4384dd6}{Dispose}} (bool disposing)
+\begin{DoxyCompactList}\small\item\em Clean up any resources being used. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_client_1_1_form1_aa1759faaede73c635c41e7a2a9e5aec6}{Form1\+\_\+\+Load}} (object sender, Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Handles the Load event of the form. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_client_1_1_form1_aeeeb12cfc4145c4190a6f3116b04072e}{Setup\+Serial\+Port}} ()
+\begin{DoxyCompactList}\small\item\em Configures the serial port for communication. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_client_1_1_form1_a77a903706812b496f06a9bd3276a6f1a}{btn\+Rock\+One\+\_\+\+Click}} (object sender, Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Handles the Rock button click event for Player One. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_client_1_1_form1_a1b0be631fa2851885cece0f6b41b2070}{btn\+Paper\+One\+\_\+\+Click}} (object sender, Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Handles the Paper button click event for Player One. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_client_1_1_form1_a3791a2f228cea60ef1fa370aed308676}{btn\+Scissors\+One\+\_\+\+Click}} (object sender, Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Handles the Scissors button click event for Player One. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_client_1_1_form1_a6a6de04e535f41105483db945ff9919c}{btn\+Rock\+Two\+\_\+\+Click}} (object sender, Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Handles the Rock button click event for Player Two. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_client_1_1_form1_ae6f7802cdb51a3182829d720fbe81029}{btn\+Paper\+Two\+\_\+\+Click}} (object sender, Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Handles the Paper button click event for Player Two. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_client_1_1_form1_a3640ac34f381047b60c8d3b06a3bc9d5}{btn\+Scissors\+Two\+\_\+\+Click}} (object sender, Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Handles the Scissors button click event for Player Two. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_client_1_1_form1_a41e426e3834064f4aeff24f941b79525}{btn\+Config\+\_\+\+Click}} (object sender, Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Opens the configuration form. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_client_1_1_form1_a96d947cef8e6d5a771376bc0abbd0453}{btn\+Show\+\_\+\+Click}} (object sender, Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Sends the selected moves and mode to the server. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_client_1_1_form1_a7b380994640d69a8e23f62dcecd36874}{Player\+One\+Move}} (string move)
+\begin{DoxyCompactList}\small\item\em Sets the move for Player One. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_client_1_1_form1_abcda4211e4a748905acd83685d925b01}{Player\+Two\+Move}} (string move)
+\begin{DoxyCompactList}\small\item\em Sets the move for Player Two. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_client_1_1_form1_a0143e241834bf02bc5e8e1ef0b310062}{Serial\+Port\+Data\+Received}} (object sender, Serial\+Data\+Received\+Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Handles data received from the serial port. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_client_1_1_form1_a075cb67add188d1fcbb0abc9f03b2daa}{Process\+Server\+Response}} (string response)
+\begin{DoxyCompactList}\small\item\em Processes the response from the server. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_client_1_1_form1_ad1e4ebe824081759bbb892bfdbd25d4d}{Show\+Game\+Over\+Dialog}} ()
+\begin{DoxyCompactList}\small\item\em Displays a dialog when the game is over. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_client_1_1_form1_a7f8e343f71dedc23fec4f31789af2a8f}{Reset\+Game}} ()
+\begin{DoxyCompactList}\small\item\em Resets the game to its initial state. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_client_1_1_form1_a25ceff2182fada25e632c054d16a57ba}{calc\+Score}} (char winner)
+\begin{DoxyCompactList}\small\item\em Calculates and updates the score based on the winner. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_client_1_1_form1_a9394c5890aab8d612884247142c9ad02}{Main\+Form\+\_\+\+Form\+Closing}} (object sender, Form\+Closing\+Event\+Args e)
+\begin{DoxyCompactList}\small\item\em Handles the Form\+Closing event of the main form. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_client_1_1_form1_a345e054f7e4ba4e9d6f241c23d4c7bf4}{Initialize\+Component}} ()
+\begin{DoxyCompactList}\small\item\em Required method for Designer support -\/ do not modify the contents of this method with the code editor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Serial\+Port \mbox{\hyperlink{class_client_1_1_form1_a185955cde9c2f656d01bfcb3d39ae669}{serial\+Port}}
+\begin{DoxyCompactList}\small\item\em Serial port for communication. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_client_1_1_form1_ad6d24bef5b6f67bb58014305cd728b3c}{player\+One\+Score}} = 0
+\begin{DoxyCompactList}\small\item\em Score of Player One. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_client_1_1_form1_a2952f6e051c01c3ca8fc5b39b4b8ab33}{player\+Two\+Score}} = 0
+\begin{DoxyCompactList}\small\item\em Score of Player Two. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_client_1_1_form1_aadfe4ff23765835a7b346180b803a6fd}{player\+One\+Move}}
+\begin{DoxyCompactList}\small\item\em Move selected by Player One. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_client_1_1_form1_a48e81b9b53818c3d231b1683e420d675}{player\+Two\+Move}}
+\begin{DoxyCompactList}\small\item\em Move selected by Player Two. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_client_1_1_form1_a653f93ccce2f49da4cc1deefc15c2170}{mode}}
+\begin{DoxyCompactList}\small\item\em Current game mode. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_client_1_1_form1_a92c42412175acf41b630a22bbde27cb4}{file\+Path}} = "{}config.\+xml"{}
+\begin{DoxyCompactList}\small\item\em File path for the configuration file. \end{DoxyCompactList}\item 
+System.\+Component\+Model.\+IContainer \mbox{\hyperlink{class_client_1_1_form1_a81e60c4946d887d17dd5e572548c38f4}{components}} = null
+\begin{DoxyCompactList}\small\item\em Required designer variable. \end{DoxyCompactList}\item 
+Button \mbox{\hyperlink{class_client_1_1_form1_af08005b3c27d990549922c026491c434}{btn\+Rock\+One}}
+\item 
+Label \mbox{\hyperlink{class_client_1_1_form1_aefc3a02a12b29532a069e80b3d8ec8b9}{lbl\+Client\+Score}}
+\item 
+Label \mbox{\hyperlink{class_client_1_1_form1_a6eb210f9a89ee66dfc44ea51e9b1e7b3}{lbl\+Server\+Score}}
+\item 
+Button \mbox{\hyperlink{class_client_1_1_form1_a1065d4c257beea04ea4f364427602b29}{btn\+Paper\+One}}
+\item 
+Button \mbox{\hyperlink{class_client_1_1_form1_a30d297953edf8d757b0234ccc627642e}{btn\+Scissors\+One}}
+\item 
+Label \mbox{\hyperlink{class_client_1_1_form1_a5d6226940d45a88d33e0b9890c2e1366}{lbl\+Message}}
+\item 
+Picture\+Box \mbox{\hyperlink{class_client_1_1_form1_a60d7974f309a9dac05bdf9da87b12882}{img\+Player\+One\+Move}}
+\item 
+Label \mbox{\hyperlink{class_client_1_1_form1_a3df08d62e14a729748fb9e11042410d3}{label1}}
+\item 
+Picture\+Box \mbox{\hyperlink{class_client_1_1_form1_a397885fad1fad3b6d87a59211044d799}{img\+Player\+Two\+Move}}
+\item 
+Button \mbox{\hyperlink{class_client_1_1_form1_a379a0edc20d913879ae7055e387a69f3}{btn\+Rock\+Two}}
+\item 
+Button \mbox{\hyperlink{class_client_1_1_form1_af9bfe43c77e2a8e22dc680e5c19f5ef1}{btn\+Paper\+Two}}
+\item 
+Button \mbox{\hyperlink{class_client_1_1_form1_a768dd319ba83466854d0475c34249fe2}{btn\+Scissors\+Two}}
+\item 
+Button \mbox{\hyperlink{class_client_1_1_form1_a720af40cf580c9c5c63379dc71c75c86}{btn\+Config}}
+\item 
+Button \mbox{\hyperlink{class_client_1_1_form1_a3d5bdddace4e58c76418106609df13b5}{btn\+Show}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents the main form of the application. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_client_1_1_form1_a5e6bc7be3aa013055d688d37d474365f}\index{Client.Form1@{Client.Form1}!Form1@{Form1}}
+\index{Form1@{Form1}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{Form1()}{Form1()}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a5e6bc7be3aa013055d688d37d474365f} 
+Client.\+Form1.\+Form1 (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Initializes a new instance of the \doxylink{class_client_1_1_form1}{Form1} class. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_client_1_1_form1_a41e426e3834064f4aeff24f941b79525}\index{Client.Form1@{Client.Form1}!btnConfig\_Click@{btnConfig\_Click}}
+\index{btnConfig\_Click@{btnConfig\_Click}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{btnConfig\_Click()}{btnConfig\_Click()}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a41e426e3834064f4aeff24f941b79525} 
+void Client.\+Form1.\+btn\+Config\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender}{, }\item[{Event\+Args}]{e}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Opens the configuration form. 
+
+\Hypertarget{class_client_1_1_form1_a1b0be631fa2851885cece0f6b41b2070}\index{Client.Form1@{Client.Form1}!btnPaperOne\_Click@{btnPaperOne\_Click}}
+\index{btnPaperOne\_Click@{btnPaperOne\_Click}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{btnPaperOne\_Click()}{btnPaperOne\_Click()}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a1b0be631fa2851885cece0f6b41b2070} 
+void Client.\+Form1.\+btn\+Paper\+One\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender}{, }\item[{Event\+Args}]{e}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Handles the Paper button click event for Player One. 
+
+\Hypertarget{class_client_1_1_form1_ae6f7802cdb51a3182829d720fbe81029}\index{Client.Form1@{Client.Form1}!btnPaperTwo\_Click@{btnPaperTwo\_Click}}
+\index{btnPaperTwo\_Click@{btnPaperTwo\_Click}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{btnPaperTwo\_Click()}{btnPaperTwo\_Click()}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_ae6f7802cdb51a3182829d720fbe81029} 
+void Client.\+Form1.\+btn\+Paper\+Two\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender}{, }\item[{Event\+Args}]{e}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Handles the Paper button click event for Player Two. 
+
+\Hypertarget{class_client_1_1_form1_a77a903706812b496f06a9bd3276a6f1a}\index{Client.Form1@{Client.Form1}!btnRockOne\_Click@{btnRockOne\_Click}}
+\index{btnRockOne\_Click@{btnRockOne\_Click}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{btnRockOne\_Click()}{btnRockOne\_Click()}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a77a903706812b496f06a9bd3276a6f1a} 
+void Client.\+Form1.\+btn\+Rock\+One\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender}{, }\item[{Event\+Args}]{e}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Handles the Rock button click event for Player One. 
+
+\Hypertarget{class_client_1_1_form1_a6a6de04e535f41105483db945ff9919c}\index{Client.Form1@{Client.Form1}!btnRockTwo\_Click@{btnRockTwo\_Click}}
+\index{btnRockTwo\_Click@{btnRockTwo\_Click}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{btnRockTwo\_Click()}{btnRockTwo\_Click()}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a6a6de04e535f41105483db945ff9919c} 
+void Client.\+Form1.\+btn\+Rock\+Two\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender}{, }\item[{Event\+Args}]{e}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Handles the Rock button click event for Player Two. 
+
+\Hypertarget{class_client_1_1_form1_a3791a2f228cea60ef1fa370aed308676}\index{Client.Form1@{Client.Form1}!btnScissorsOne\_Click@{btnScissorsOne\_Click}}
+\index{btnScissorsOne\_Click@{btnScissorsOne\_Click}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{btnScissorsOne\_Click()}{btnScissorsOne\_Click()}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a3791a2f228cea60ef1fa370aed308676} 
+void Client.\+Form1.\+btn\+Scissors\+One\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender}{, }\item[{Event\+Args}]{e}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Handles the Scissors button click event for Player One. 
+
+\Hypertarget{class_client_1_1_form1_a3640ac34f381047b60c8d3b06a3bc9d5}\index{Client.Form1@{Client.Form1}!btnScissorsTwo\_Click@{btnScissorsTwo\_Click}}
+\index{btnScissorsTwo\_Click@{btnScissorsTwo\_Click}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{btnScissorsTwo\_Click()}{btnScissorsTwo\_Click()}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a3640ac34f381047b60c8d3b06a3bc9d5} 
+void Client.\+Form1.\+btn\+Scissors\+Two\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender}{, }\item[{Event\+Args}]{e}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Handles the Scissors button click event for Player Two. 
+
+\Hypertarget{class_client_1_1_form1_a96d947cef8e6d5a771376bc0abbd0453}\index{Client.Form1@{Client.Form1}!btnShow\_Click@{btnShow\_Click}}
+\index{btnShow\_Click@{btnShow\_Click}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{btnShow\_Click()}{btnShow\_Click()}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a96d947cef8e6d5a771376bc0abbd0453} 
+void Client.\+Form1.\+btn\+Show\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender}{, }\item[{Event\+Args}]{e}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Sends the selected moves and mode to the server. 
+
+\Hypertarget{class_client_1_1_form1_a25ceff2182fada25e632c054d16a57ba}\index{Client.Form1@{Client.Form1}!calcScore@{calcScore}}
+\index{calcScore@{calcScore}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{calcScore()}{calcScore()}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a25ceff2182fada25e632c054d16a57ba} 
+void Client.\+Form1.\+calc\+Score (\begin{DoxyParamCaption}\item[{char}]{winner}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Calculates and updates the score based on the winner. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em winner} & The character representing the winner (\textquotesingle{}C\textquotesingle{} for \doxylink{namespace_client}{Client}, \textquotesingle{}S\textquotesingle{} for Server).\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_client_1_1_form1_a8c1d51c8b86be3070839f09ff4384dd6}\index{Client.Form1@{Client.Form1}!Dispose@{Dispose}}
+\index{Dispose@{Dispose}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{Dispose()}{Dispose()}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a8c1d51c8b86be3070839f09ff4384dd6} 
+override void Client.\+Form1.\+Dispose (\begin{DoxyParamCaption}\item[{bool}]{disposing}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+
+
+Clean up any resources being used. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em disposing} & true if managed resources should be disposed; otherwise, false.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_client_1_1_form1_aa1759faaede73c635c41e7a2a9e5aec6}\index{Client.Form1@{Client.Form1}!Form1\_Load@{Form1\_Load}}
+\index{Form1\_Load@{Form1\_Load}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{Form1\_Load()}{Form1\_Load()}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_aa1759faaede73c635c41e7a2a9e5aec6} 
+void Client.\+Form1.\+Form1\+\_\+\+Load (\begin{DoxyParamCaption}\item[{object}]{sender}{, }\item[{Event\+Args}]{e}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Handles the Load event of the form. 
+
+\Hypertarget{class_client_1_1_form1_a345e054f7e4ba4e9d6f241c23d4c7bf4}\index{Client.Form1@{Client.Form1}!InitializeComponent@{InitializeComponent}}
+\index{InitializeComponent@{InitializeComponent}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{InitializeComponent()}{InitializeComponent()}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a345e054f7e4ba4e9d6f241c23d4c7bf4} 
+void Client.\+Form1.\+Initialize\+Component (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Required method for Designer support -\/ do not modify the contents of this method with the code editor. 
+
+\Hypertarget{class_client_1_1_form1_a9394c5890aab8d612884247142c9ad02}\index{Client.Form1@{Client.Form1}!MainForm\_FormClosing@{MainForm\_FormClosing}}
+\index{MainForm\_FormClosing@{MainForm\_FormClosing}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{MainForm\_FormClosing()}{MainForm\_FormClosing()}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a9394c5890aab8d612884247142c9ad02} 
+void Client.\+Form1.\+Main\+Form\+\_\+\+Form\+Closing (\begin{DoxyParamCaption}\item[{object}]{sender}{, }\item[{Form\+Closing\+Event\+Args}]{e}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Handles the Form\+Closing event of the main form. 
+
+\Hypertarget{class_client_1_1_form1_a7b380994640d69a8e23f62dcecd36874}\index{Client.Form1@{Client.Form1}!PlayerOneMove@{PlayerOneMove}}
+\index{PlayerOneMove@{PlayerOneMove}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{PlayerOneMove()}{PlayerOneMove()}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a7b380994640d69a8e23f62dcecd36874} 
+void Client.\+Form1.\+Player\+One\+Move (\begin{DoxyParamCaption}\item[{string}]{move}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Sets the move for Player One. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em move} & The move chosen by Player One.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_client_1_1_form1_abcda4211e4a748905acd83685d925b01}\index{Client.Form1@{Client.Form1}!PlayerTwoMove@{PlayerTwoMove}}
+\index{PlayerTwoMove@{PlayerTwoMove}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{PlayerTwoMove()}{PlayerTwoMove()}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_abcda4211e4a748905acd83685d925b01} 
+void Client.\+Form1.\+Player\+Two\+Move (\begin{DoxyParamCaption}\item[{string}]{move}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Sets the move for Player Two. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em move} & The move chosen by Player Two.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_client_1_1_form1_a075cb67add188d1fcbb0abc9f03b2daa}\index{Client.Form1@{Client.Form1}!ProcessServerResponse@{ProcessServerResponse}}
+\index{ProcessServerResponse@{ProcessServerResponse}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{ProcessServerResponse()}{ProcessServerResponse()}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a075cb67add188d1fcbb0abc9f03b2daa} 
+void Client.\+Form1.\+Process\+Server\+Response (\begin{DoxyParamCaption}\item[{string}]{response}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Processes the response from the server. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em response} & The response received from the server.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_client_1_1_form1_a7f8e343f71dedc23fec4f31789af2a8f}\index{Client.Form1@{Client.Form1}!ResetGame@{ResetGame}}
+\index{ResetGame@{ResetGame}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{ResetGame()}{ResetGame()}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a7f8e343f71dedc23fec4f31789af2a8f} 
+void Client.\+Form1.\+Reset\+Game (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Resets the game to its initial state. 
+
+\Hypertarget{class_client_1_1_form1_a0143e241834bf02bc5e8e1ef0b310062}\index{Client.Form1@{Client.Form1}!SerialPortDataReceived@{SerialPortDataReceived}}
+\index{SerialPortDataReceived@{SerialPortDataReceived}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{SerialPortDataReceived()}{SerialPortDataReceived()}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a0143e241834bf02bc5e8e1ef0b310062} 
+void Client.\+Form1.\+Serial\+Port\+Data\+Received (\begin{DoxyParamCaption}\item[{object}]{sender}{, }\item[{Serial\+Data\+Received\+Event\+Args}]{e}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Handles data received from the serial port. 
+
+\Hypertarget{class_client_1_1_form1_aeeeb12cfc4145c4190a6f3116b04072e}\index{Client.Form1@{Client.Form1}!SetupSerialPort@{SetupSerialPort}}
+\index{SetupSerialPort@{SetupSerialPort}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{SetupSerialPort()}{SetupSerialPort()}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_aeeeb12cfc4145c4190a6f3116b04072e} 
+void Client.\+Form1.\+Setup\+Serial\+Port (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Configures the serial port for communication. 
+
+\Hypertarget{class_client_1_1_form1_ad1e4ebe824081759bbb892bfdbd25d4d}\index{Client.Form1@{Client.Form1}!ShowGameOverDialog@{ShowGameOverDialog}}
+\index{ShowGameOverDialog@{ShowGameOverDialog}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{ShowGameOverDialog()}{ShowGameOverDialog()}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_ad1e4ebe824081759bbb892bfdbd25d4d} 
+void Client.\+Form1.\+Show\+Game\+Over\+Dialog (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Displays a dialog when the game is over. 
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_client_1_1_form1_a720af40cf580c9c5c63379dc71c75c86}\index{Client.Form1@{Client.Form1}!btnConfig@{btnConfig}}
+\index{btnConfig@{btnConfig}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{btnConfig}{btnConfig}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a720af40cf580c9c5c63379dc71c75c86} 
+Button Client.\+Form1.\+btn\+Config\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_client_1_1_form1_a1065d4c257beea04ea4f364427602b29}\index{Client.Form1@{Client.Form1}!btnPaperOne@{btnPaperOne}}
+\index{btnPaperOne@{btnPaperOne}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{btnPaperOne}{btnPaperOne}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a1065d4c257beea04ea4f364427602b29} 
+Button Client.\+Form1.\+btn\+Paper\+One\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_client_1_1_form1_af9bfe43c77e2a8e22dc680e5c19f5ef1}\index{Client.Form1@{Client.Form1}!btnPaperTwo@{btnPaperTwo}}
+\index{btnPaperTwo@{btnPaperTwo}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{btnPaperTwo}{btnPaperTwo}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_af9bfe43c77e2a8e22dc680e5c19f5ef1} 
+Button Client.\+Form1.\+btn\+Paper\+Two\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_client_1_1_form1_af08005b3c27d990549922c026491c434}\index{Client.Form1@{Client.Form1}!btnRockOne@{btnRockOne}}
+\index{btnRockOne@{btnRockOne}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{btnRockOne}{btnRockOne}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_af08005b3c27d990549922c026491c434} 
+Button Client.\+Form1.\+btn\+Rock\+One\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_client_1_1_form1_a379a0edc20d913879ae7055e387a69f3}\index{Client.Form1@{Client.Form1}!btnRockTwo@{btnRockTwo}}
+\index{btnRockTwo@{btnRockTwo}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{btnRockTwo}{btnRockTwo}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a379a0edc20d913879ae7055e387a69f3} 
+Button Client.\+Form1.\+btn\+Rock\+Two\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_client_1_1_form1_a30d297953edf8d757b0234ccc627642e}\index{Client.Form1@{Client.Form1}!btnScissorsOne@{btnScissorsOne}}
+\index{btnScissorsOne@{btnScissorsOne}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{btnScissorsOne}{btnScissorsOne}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a30d297953edf8d757b0234ccc627642e} 
+Button Client.\+Form1.\+btn\+Scissors\+One\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_client_1_1_form1_a768dd319ba83466854d0475c34249fe2}\index{Client.Form1@{Client.Form1}!btnScissorsTwo@{btnScissorsTwo}}
+\index{btnScissorsTwo@{btnScissorsTwo}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{btnScissorsTwo}{btnScissorsTwo}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a768dd319ba83466854d0475c34249fe2} 
+Button Client.\+Form1.\+btn\+Scissors\+Two\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_client_1_1_form1_a3d5bdddace4e58c76418106609df13b5}\index{Client.Form1@{Client.Form1}!btnShow@{btnShow}}
+\index{btnShow@{btnShow}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{btnShow}{btnShow}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a3d5bdddace4e58c76418106609df13b5} 
+Button Client.\+Form1.\+btn\+Show\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_client_1_1_form1_a81e60c4946d887d17dd5e572548c38f4}\index{Client.Form1@{Client.Form1}!components@{components}}
+\index{components@{components}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{components}{components}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a81e60c4946d887d17dd5e572548c38f4} 
+System.\+Component\+Model.\+IContainer Client.\+Form1.\+components = null\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Required designer variable. 
+
+\Hypertarget{class_client_1_1_form1_a92c42412175acf41b630a22bbde27cb4}\index{Client.Form1@{Client.Form1}!filePath@{filePath}}
+\index{filePath@{filePath}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{filePath}{filePath}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a92c42412175acf41b630a22bbde27cb4} 
+string Client.\+Form1.\+file\+Path = "{}config.\+xml"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+File path for the configuration file. 
+
+\Hypertarget{class_client_1_1_form1_a60d7974f309a9dac05bdf9da87b12882}\index{Client.Form1@{Client.Form1}!imgPlayerOneMove@{imgPlayerOneMove}}
+\index{imgPlayerOneMove@{imgPlayerOneMove}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{imgPlayerOneMove}{imgPlayerOneMove}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a60d7974f309a9dac05bdf9da87b12882} 
+Picture\+Box Client.\+Form1.\+img\+Player\+One\+Move\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_client_1_1_form1_a397885fad1fad3b6d87a59211044d799}\index{Client.Form1@{Client.Form1}!imgPlayerTwoMove@{imgPlayerTwoMove}}
+\index{imgPlayerTwoMove@{imgPlayerTwoMove}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{imgPlayerTwoMove}{imgPlayerTwoMove}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a397885fad1fad3b6d87a59211044d799} 
+Picture\+Box Client.\+Form1.\+img\+Player\+Two\+Move\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_client_1_1_form1_a3df08d62e14a729748fb9e11042410d3}\index{Client.Form1@{Client.Form1}!label1@{label1}}
+\index{label1@{label1}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{label1}{label1}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a3df08d62e14a729748fb9e11042410d3} 
+Label Client.\+Form1.\+label1\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_client_1_1_form1_aefc3a02a12b29532a069e80b3d8ec8b9}\index{Client.Form1@{Client.Form1}!lblClientScore@{lblClientScore}}
+\index{lblClientScore@{lblClientScore}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{lblClientScore}{lblClientScore}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_aefc3a02a12b29532a069e80b3d8ec8b9} 
+Label Client.\+Form1.\+lbl\+Client\+Score\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_client_1_1_form1_a5d6226940d45a88d33e0b9890c2e1366}\index{Client.Form1@{Client.Form1}!lblMessage@{lblMessage}}
+\index{lblMessage@{lblMessage}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{lblMessage}{lblMessage}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a5d6226940d45a88d33e0b9890c2e1366} 
+Label Client.\+Form1.\+lbl\+Message\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_client_1_1_form1_a6eb210f9a89ee66dfc44ea51e9b1e7b3}\index{Client.Form1@{Client.Form1}!lblServerScore@{lblServerScore}}
+\index{lblServerScore@{lblServerScore}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{lblServerScore}{lblServerScore}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a6eb210f9a89ee66dfc44ea51e9b1e7b3} 
+Label Client.\+Form1.\+lbl\+Server\+Score\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_client_1_1_form1_a653f93ccce2f49da4cc1deefc15c2170}\index{Client.Form1@{Client.Form1}!mode@{mode}}
+\index{mode@{mode}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{mode}{mode}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a653f93ccce2f49da4cc1deefc15c2170} 
+string Client.\+Form1.\+mode\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Current game mode. 
+
+\Hypertarget{class_client_1_1_form1_aadfe4ff23765835a7b346180b803a6fd}\index{Client.Form1@{Client.Form1}!playerOneMove@{playerOneMove}}
+\index{playerOneMove@{playerOneMove}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{playerOneMove}{playerOneMove}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_aadfe4ff23765835a7b346180b803a6fd} 
+string Client.\+Form1.\+player\+One\+Move\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Move selected by Player One. 
+
+\Hypertarget{class_client_1_1_form1_ad6d24bef5b6f67bb58014305cd728b3c}\index{Client.Form1@{Client.Form1}!playerOneScore@{playerOneScore}}
+\index{playerOneScore@{playerOneScore}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{playerOneScore}{playerOneScore}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_ad6d24bef5b6f67bb58014305cd728b3c} 
+int Client.\+Form1.\+player\+One\+Score = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Score of Player One. 
+
+\Hypertarget{class_client_1_1_form1_a48e81b9b53818c3d231b1683e420d675}\index{Client.Form1@{Client.Form1}!playerTwoMove@{playerTwoMove}}
+\index{playerTwoMove@{playerTwoMove}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{playerTwoMove}{playerTwoMove}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a48e81b9b53818c3d231b1683e420d675} 
+string Client.\+Form1.\+player\+Two\+Move\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Move selected by Player Two. 
+
+\Hypertarget{class_client_1_1_form1_a2952f6e051c01c3ca8fc5b39b4b8ab33}\index{Client.Form1@{Client.Form1}!playerTwoScore@{playerTwoScore}}
+\index{playerTwoScore@{playerTwoScore}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{playerTwoScore}{playerTwoScore}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a2952f6e051c01c3ca8fc5b39b4b8ab33} 
+int Client.\+Form1.\+player\+Two\+Score = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Score of Player Two. 
+
+\Hypertarget{class_client_1_1_form1_a185955cde9c2f656d01bfcb3d39ae669}\index{Client.Form1@{Client.Form1}!serialPort@{serialPort}}
+\index{serialPort@{serialPort}!Client.Form1@{Client.Form1}}
+\doxysubsubsection{\texorpdfstring{serialPort}{serialPort}}
+{\footnotesize\ttfamily \label{class_client_1_1_form1_a185955cde9c2f656d01bfcb3d39ae669} 
+Serial\+Port Client.\+Form1.\+serial\+Port\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Serial port for communication. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_form1_8cs}{Form1.\+cs}}\item 
+\mbox{\hyperlink{_form1_8_designer_8cs}{Form1.\+Designer.\+cs}}\end{DoxyCompactItemize}

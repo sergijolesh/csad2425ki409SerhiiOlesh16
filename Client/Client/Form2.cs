@@ -12,18 +12,29 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
 
 namespace Client
 {
+    /// <summary>
+    /// Represents the configuration form for selecting game modes.
+    /// </summary>
     public partial class Form2 : Form
     {
+        /// <summary>
+        /// File path for the configuration file.
+        /// </summary>
+        private string filePath = "config.xml";
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Form2"/> class.
+        /// </summary>
         public Form2()
         {
             InitializeComponent();
         }
 
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
+        /// <summary>
+        /// Saves the selected configuration to an XML file.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">Event arguments.</param>
         private void btnSave_Click(object sender, EventArgs e)
         {
             XDocument xmlDoc = new XDocument(
@@ -34,14 +45,16 @@ namespace Client
                 )
             );
 
-            string filePath = "config.xml";
             xmlDoc.Save(filePath);
         }
 
+        /// <summary>
+        /// Loads the saved configuration from an XML file and updates the UI.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">Event arguments.</param>
         private void btnLoad_Click(object sender, EventArgs e)
         {
-            string filePath = "config.xml";
-
             if (File.Exists(filePath))
             {
                 XDocument xmlDoc = XDocument.Load(filePath);
@@ -55,6 +68,5 @@ namespace Client
                 MessageBox.Show("No saved data found.", "Error");
             }
         }
-
     }
 }

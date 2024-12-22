@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_client_1_1_properties_1_1_resources" kind="class" language="C#" prot="package">
+    <compoundname>Client::Properties::Resources</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_client_1_1_properties_1_1_resources_1a4068ca08f63290f92c4dc403905a84a0" prot="private" static="yes" mutable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager Client.Properties.Resources.resourceMan</definition>
+        <argsstring></argsstring>
+        <name>resourceMan</name>
+        <qualifiedname>Client.Properties.Resources.resourceMan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Properties/Resources.Designer.cs" line="27" column="63" bodyfile="Properties/Resources.Designer.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_properties_1_1_resources_1adf56abae78f6f6eb424047d93b5dc5b2" prot="private" static="yes" mutable="no">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo Client.Properties.Resources.resourceCulture</definition>
+        <argsstring></argsstring>
+        <name>resourceCulture</name>
+        <qualifiedname>Client.Properties.Resources.resourceCulture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Properties/Resources.Designer.cs" line="29" column="63" bodyfile="Properties/Resources.Designer.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_client_1_1_properties_1_1_resources_1a63776b58e75882016a7e163d308d504d" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager Client.Properties.Resources.ResourceManager</definition>
+        <argsstring></argsstring>
+        <name>ResourceManager</name>
+        <qualifiedname>Client.Properties.Resources.ResourceManager</qualifiedname>
+        <briefdescription>
+<para>Returns the cached ResourceManager instance used by this class. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Properties/Resources.Designer.cs" line="39" column="64" bodyfile="Properties/Resources.Designer.cs" bodystart="39" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="property" id="class_client_1_1_properties_1_1_resources_1ad23420a45787e86c655d298e598d7020" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo Client.Properties.Resources.Culture</definition>
+        <argsstring></argsstring>
+        <name>Culture</name>
+        <qualifiedname>Client.Properties.Resources.Culture</qualifiedname>
+        <briefdescription>
+<para>Overrides the current thread&apos;s CurrentUICulture property for all resource lookups using this strongly typed resource class. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Properties/Resources.Designer.cs" line="54" column="64" bodyfile="Properties/Resources.Designer.cs" bodystart="54" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="property" id="class_client_1_1_properties_1_1_resources_1a8cf2e20ec585f2390d4d0409d0038467" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>System.Drawing.Bitmap</type>
+        <definition>System.Drawing.Bitmap Client.Properties.Resources.paper</definition>
+        <argsstring></argsstring>
+        <name>paper</name>
+        <qualifiedname>Client.Properties.Resources.paper</qualifiedname>
+        <briefdescription>
+<para>Looks up a localized resource of type System.Drawing.Bitmap. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Properties/Resources.Designer.cs" line="66" column="45" bodyfile="Properties/Resources.Designer.cs" bodystart="66" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="property" id="class_client_1_1_properties_1_1_resources_1a93741c04ef6ad4dd6204f0ce4d7b95f4" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>System.Drawing.Bitmap</type>
+        <definition>System.Drawing.Bitmap Client.Properties.Resources.paper1</definition>
+        <argsstring></argsstring>
+        <name>paper1</name>
+        <qualifiedname>Client.Properties.Resources.paper1</qualifiedname>
+        <briefdescription>
+<para>Looks up a localized resource of type System.Drawing.Bitmap. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Properties/Resources.Designer.cs" line="76" column="45" bodyfile="Properties/Resources.Designer.cs" bodystart="76" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="property" id="class_client_1_1_properties_1_1_resources_1abb1564872cfdd72c7fd6e32f532a2b21" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>System.Drawing.Bitmap</type>
+        <definition>System.Drawing.Bitmap Client.Properties.Resources.rock</definition>
+        <argsstring></argsstring>
+        <name>rock</name>
+        <qualifiedname>Client.Properties.Resources.rock</qualifiedname>
+        <briefdescription>
+<para>Looks up a localized resource of type System.Drawing.Bitmap. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Properties/Resources.Designer.cs" line="86" column="45" bodyfile="Properties/Resources.Designer.cs" bodystart="86" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="property" id="class_client_1_1_properties_1_1_resources_1ab8dc4b2f070eab326a7752feea71ba43" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>System.Drawing.Bitmap</type>
+        <definition>System.Drawing.Bitmap Client.Properties.Resources.scissors</definition>
+        <argsstring></argsstring>
+        <name>scissors</name>
+        <qualifiedname>Client.Properties.Resources.scissors</qualifiedname>
+        <briefdescription>
+<para>Looks up a localized resource of type System.Drawing.Bitmap. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Properties/Resources.Designer.cs" line="96" column="45" bodyfile="Properties/Resources.Designer.cs" bodystart="96" bodyend="101"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_client_1_1_properties_1_1_resources_1aa027928c32d7883eb7e4c68ddf3344eb" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Client.Properties.Resources.Resources</definition>
+        <argsstring>()</argsstring>
+        <name>Resources</name>
+        <qualifiedname>Client.Properties.Resources.Resources</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Properties/Resources.Designer.cs" line="32" column="18" bodyfile="Properties/Resources.Designer.cs" bodystart="32" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>A strongly-typed resource class, for looking up localized strings, etc. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Client.Properties.Resources</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>resourceMan</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Client.Properties.Resources</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>resourceMan</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Properties/Resources.Designer.cs" line="25" column="13" bodyfile="Properties/Resources.Designer.cs" bodystart="25" bodyend="102"/>
+    <listofallmembers>
+      <member refid="class_client_1_1_properties_1_1_resources_1ad23420a45787e86c655d298e598d7020" prot="package" virt="non-virtual"><scope>Client::Properties::Resources</scope><name>Culture</name></member>
+      <member refid="class_client_1_1_properties_1_1_resources_1a8cf2e20ec585f2390d4d0409d0038467" prot="package" virt="non-virtual"><scope>Client::Properties::Resources</scope><name>paper</name></member>
+      <member refid="class_client_1_1_properties_1_1_resources_1a93741c04ef6ad4dd6204f0ce4d7b95f4" prot="package" virt="non-virtual"><scope>Client::Properties::Resources</scope><name>paper1</name></member>
+      <member refid="class_client_1_1_properties_1_1_resources_1adf56abae78f6f6eb424047d93b5dc5b2" prot="private" virt="non-virtual"><scope>Client::Properties::Resources</scope><name>resourceCulture</name></member>
+      <member refid="class_client_1_1_properties_1_1_resources_1a4068ca08f63290f92c4dc403905a84a0" prot="private" virt="non-virtual"><scope>Client::Properties::Resources</scope><name>resourceMan</name></member>
+      <member refid="class_client_1_1_properties_1_1_resources_1a63776b58e75882016a7e163d308d504d" prot="package" virt="non-virtual"><scope>Client::Properties::Resources</scope><name>ResourceManager</name></member>
+      <member refid="class_client_1_1_properties_1_1_resources_1aa027928c32d7883eb7e4c68ddf3344eb" prot="package" virt="non-virtual"><scope>Client::Properties::Resources</scope><name>Resources</name></member>
+      <member refid="class_client_1_1_properties_1_1_resources_1abb1564872cfdd72c7fd6e32f532a2b21" prot="package" virt="non-virtual"><scope>Client::Properties::Resources</scope><name>rock</name></member>
+      <member refid="class_client_1_1_properties_1_1_resources_1ab8dc4b2f070eab326a7752feea71ba43" prot="package" virt="non-virtual"><scope>Client::Properties::Resources</scope><name>scissors</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

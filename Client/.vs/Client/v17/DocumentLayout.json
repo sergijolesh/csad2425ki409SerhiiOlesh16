@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\serhi\\Desktop\\\u0410\u041F\u041A\u0421\\Client\\",
+  "WorkspaceRootPath": "C:\\Users\\serhi\\Desktop\\dev\\Client\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{07102A27-D1F4-461E-BDCD-2A9AAC3052B9}|Client\\Client.csproj|c:\\users\\serhi\\desktop\\\u0430\u043F\u043A\u0441\\client\\client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{07102A27-D1F4-461E-BDCD-2A9AAC3052B9}|Client\\Client.csproj|c:\\users\\serhi\\desktop\\dev\\client\\client\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07102A27-D1F4-461E-BDCD-2A9AAC3052B9}|Client\\Client.csproj|solutionrelative:client\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07102A27-D1F4-461E-BDCD-2A9AAC3052B9}|Client\\Client.csproj|c:\\users\\serhi\\desktop\\dev\\client\\client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07102A27-D1F4-461E-BDCD-2A9AAC3052B9}|Client\\Client.csproj|solutionrelative:client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07102A27-D1F4-461E-BDCD-2A9AAC3052B9}|Client\\Client.csproj|c:\\users\\serhi\\desktop\\\u0430\u043F\u043A\u0441\\client\\client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{07102A27-D1F4-461E-BDCD-2A9AAC3052B9}|Client\\Client.csproj|c:\\users\\serhi\\desktop\\dev\\client\\client\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07102A27-D1F4-461E-BDCD-2A9AAC3052B9}|Client\\Client.csproj|solutionrelative:client\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07102A27-D1F4-461E-BDCD-2A9AAC3052B9}|Client\\Client.csproj|c:\\users\\serhi\\desktop\\dev\\client\\client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{07102A27-D1F4-461E-BDCD-2A9AAC3052B9}|Client\\Client.csproj|solutionrelative:client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07102A27-D1F4-461E-BDCD-2A9AAC3052B9}|Client\\Client.csproj|c:\\users\\serhi\\desktop\\\u0430\u043F\u043A\u0441\\client\\client\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{07102A27-D1F4-461E-BDCD-2A9AAC3052B9}|Client\\Client.csproj|c:\\users\\serhi\\desktop\\dev\\client\\client\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{07102A27-D1F4-461E-BDCD-2A9AAC3052B9}|Client\\Client.csproj|solutionrelative:client\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07102A27-D1F4-461E-BDCD-2A9AAC3052B9}|Client\\Client.csproj|c:\\users\\serhi\\desktop\\\u0430\u043F\u043A\u0441\\client\\client\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07102A27-D1F4-461E-BDCD-2A9AAC3052B9}|Client\\Client.csproj|solutionrelative:client\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 169,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Form2.cs",
-              "DocumentMoniker": "C:\\Users\\serhi\\Desktop\\\u0410\u041F\u041A\u0421\\Client\\Client\\Form2.cs",
+              "DocumentMoniker": "C:\\Users\\serhi\\Desktop\\dev\\Client\\Client\\Form2.cs",
               "RelativeDocumentMoniker": "Client\\Form2.cs",
-              "ToolTip": "C:\\Users\\serhi\\Desktop\\\u0410\u041F\u041A\u0421\\Client\\Client\\Form2.cs",
+              "ToolTip": "C:\\Users\\serhi\\Desktop\\dev\\Client\\Client\\Form2.cs",
               "RelativeToolTip": "Client\\Form2.cs",
-              "ViewState": "AQIAABEAAACwmZmZmZkdwCUAAAAiAAAA",
+              "ViewState": "AQIAAAgAAAAANDMzMzMDwBYAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T20:58:21.4Z",
               "IsPinned": true,
@@ -44,11 +48,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Form2.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\serhi\\Desktop\\\u0410\u041F\u041A\u0421\\Client\\Client\\Form2.cs",
+              "DocumentMoniker": "C:\\Users\\serhi\\Desktop\\dev\\Client\\Client\\Form2.cs",
               "RelativeDocumentMoniker": "Client\\Form2.cs",
-              "ToolTip": "C:\\Users\\serhi\\Desktop\\\u0410\u041F\u041A\u0421\\Client\\Client\\Form2.cs [Design]",
+              "ToolTip": "C:\\Users\\serhi\\Desktop\\dev\\Client\\Client\\Form2.cs [Design]",
               "RelativeToolTip": "Client\\Form2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T20:57:32.084Z",
@@ -57,28 +61,41 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\serhi\\Desktop\\dev\\Client\\Client\\Form2.Designer.cs",
+              "RelativeDocumentMoniker": "Client\\Form2.Designer.cs",
+              "ToolTip": "C:\\Users\\serhi\\Desktop\\dev\\Client\\Client\\Form2.Designer.cs",
+              "RelativeToolTip": "Client\\Form2.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T14:24:43.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\serhi\\Desktop\\\u0410\u041F\u041A\u0421\\Client\\Client\\Form1.cs",
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\serhi\\Desktop\\dev\\Client\\Client\\Form1.cs",
               "RelativeDocumentMoniker": "Client\\Form1.cs",
-              "ToolTip": "C:\\Users\\serhi\\Desktop\\\u0410\u041F\u041A\u0421\\Client\\Client\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\serhi\\Desktop\\dev\\Client\\Client\\Form1.cs",
+              "RelativeToolTip": "Client\\Form1.cs",
+              "ViewState": "AQIAAB0AAAAA////////vxAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T12:28:43.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\serhi\\Desktop\\dev\\Client\\Client\\Form1.cs",
+              "RelativeDocumentMoniker": "Client\\Form1.cs",
+              "ToolTip": "C:\\Users\\serhi\\Desktop\\dev\\Client\\Client\\Form1.cs [Design]",
               "RelativeToolTip": "Client\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T20:23:49.976Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\serhi\\Desktop\\\u0410\u041F\u041A\u0421\\Client\\Client\\Form1.cs",
-              "RelativeDocumentMoniker": "Client\\Form1.cs",
-              "ToolTip": "C:\\Users\\serhi\\Desktop\\\u0410\u041F\u041A\u0421\\Client\\Client\\Form1.cs",
-              "RelativeToolTip": "Client\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAOAAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T12:28:43.583Z",
-              "EditorCaption": ""
             }
           ]
         },

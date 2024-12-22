@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_client_1_1_wrapper_1_1_serial_port_wrapper" kind="class" language="C#" prot="public">
+    <compoundname>Client::Wrapper::SerialPortWrapper</compoundname>
+    <basecompoundref refid="interface_client_1_1_wrapper_1_1_i_serial_port" prot="public" virt="non-virtual">Client.Wrapper.ISerialPort</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_client_1_1_wrapper_1_1_serial_port_wrapper_1a189c1092d79b7e9d24fcde3de6ab4720" prot="private" static="no" mutable="no">
+        <type>readonly SerialPort</type>
+        <definition>readonly SerialPort Client.Wrapper.SerialPortWrapper.serialPort</definition>
+        <argsstring></argsstring>
+        <name>serialPort</name>
+        <qualifiedname>Client.Wrapper.SerialPortWrapper.serialPort</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ISerialPort.cs" line="17" column="37" bodyfile="ISerialPort.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_client_1_1_wrapper_1_1_serial_port_wrapper_1a791804e1eb2dd2e0877d75a10cd4470b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Client.Wrapper.SerialPortWrapper.IsOpen</definition>
+        <argsstring></argsstring>
+        <name>IsOpen</name>
+        <qualifiedname>Client.Wrapper.SerialPortWrapper.IsOpen</qualifiedname>
+        <reimplements refid="interface_client_1_1_wrapper_1_1_i_serial_port_1ac858605f94cc3050ac782815907e83a4">IsOpen</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ISerialPort.cs" line="24" column="21" bodyfile="ISerialPort.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_client_1_1_wrapper_1_1_serial_port_wrapper_1a39054212326d16c316d4895c7598475b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Client.Wrapper.SerialPortWrapper.SerialPortWrapper</definition>
+        <argsstring>(string portName, int baudRate)</argsstring>
+        <name>SerialPortWrapper</name>
+        <qualifiedname>Client.Wrapper.SerialPortWrapper.SerialPortWrapper</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>portName</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>baudRate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ISerialPort.cs" line="19" column="16" bodyfile="ISerialPort.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_wrapper_1_1_serial_port_wrapper_1ad5675649d6bd8a76d70b601d07069d97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Wrapper.SerialPortWrapper.Open</definition>
+        <argsstring>()</argsstring>
+        <name>Open</name>
+        <qualifiedname>Client.Wrapper.SerialPortWrapper.Open</qualifiedname>
+        <reimplements refid="interface_client_1_1_wrapper_1_1_i_serial_port_1a31dcb0feb9ed7015d1738aeda281366e">Open</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ISerialPort.cs" line="26" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_wrapper_1_1_serial_port_wrapper_1aa15d876212978fbf41ca391f2e093952" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Wrapper.SerialPortWrapper.Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <qualifiedname>Client.Wrapper.SerialPortWrapper.Close</qualifiedname>
+        <reimplements refid="interface_client_1_1_wrapper_1_1_i_serial_port_1a79445ab7bcead8f34203ea0580806498">Close</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ISerialPort.cs" line="28" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_wrapper_1_1_serial_port_wrapper_1ab60ce34334a3447dda230c072227bc9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Wrapper.SerialPortWrapper.WriteLine</definition>
+        <argsstring>(string message)</argsstring>
+        <name>WriteLine</name>
+        <qualifiedname>Client.Wrapper.SerialPortWrapper.WriteLine</qualifiedname>
+        <reimplements refid="interface_client_1_1_wrapper_1_1_i_serial_port_1a8cf4f191536d205c68c5a237abf62111">WriteLine</reimplements>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ISerialPort.cs" line="30" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_wrapper_1_1_serial_port_wrapper_1ad2e440ef0c1dd1ab09e8af081f800702" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Client.Wrapper.SerialPortWrapper.ReadLine</definition>
+        <argsstring>()</argsstring>
+        <name>ReadLine</name>
+        <qualifiedname>Client.Wrapper.SerialPortWrapper.ReadLine</qualifiedname>
+        <reimplements refid="interface_client_1_1_wrapper_1_1_i_serial_port_1a26493501a88b3c5060b541ed3f3dae6a">ReadLine</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ISerialPort.cs" line="32" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Client.Wrapper.SerialPortWrapper</label>
+        <link refid="class_client_1_1_wrapper_1_1_serial_port_wrapper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ISerialPort</label>
+        <link refid="interface_client_1_1_wrapper_1_1_i_serial_port"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Client.Wrapper.SerialPortWrapper</label>
+        <link refid="class_client_1_1_wrapper_1_1_serial_port_wrapper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ISerialPort</label>
+        <link refid="interface_client_1_1_wrapper_1_1_i_serial_port"/>
+      </node>
+    </collaborationgraph>
+    <location file="ISerialPort.cs" line="15" column="11" bodyfile="ISerialPort.cs" bodystart="16" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_client_1_1_wrapper_1_1_serial_port_wrapper_1aa15d876212978fbf41ca391f2e093952" prot="public" virt="non-virtual"><scope>Client::Wrapper::SerialPortWrapper</scope><name>Close</name></member>
+      <member refid="class_client_1_1_wrapper_1_1_serial_port_wrapper_1a791804e1eb2dd2e0877d75a10cd4470b" prot="public" virt="non-virtual"><scope>Client::Wrapper::SerialPortWrapper</scope><name>IsOpen</name></member>
+      <member refid="class_client_1_1_wrapper_1_1_serial_port_wrapper_1ad5675649d6bd8a76d70b601d07069d97" prot="public" virt="non-virtual"><scope>Client::Wrapper::SerialPortWrapper</scope><name>Open</name></member>
+      <member refid="class_client_1_1_wrapper_1_1_serial_port_wrapper_1ad2e440ef0c1dd1ab09e8af081f800702" prot="public" virt="non-virtual"><scope>Client::Wrapper::SerialPortWrapper</scope><name>ReadLine</name></member>
+      <member refid="class_client_1_1_wrapper_1_1_serial_port_wrapper_1a189c1092d79b7e9d24fcde3de6ab4720" prot="private" virt="non-virtual"><scope>Client::Wrapper::SerialPortWrapper</scope><name>serialPort</name></member>
+      <member refid="class_client_1_1_wrapper_1_1_serial_port_wrapper_1a39054212326d16c316d4895c7598475b" prot="public" virt="non-virtual"><scope>Client::Wrapper::SerialPortWrapper</scope><name>SerialPortWrapper</name></member>
+      <member refid="class_client_1_1_wrapper_1_1_serial_port_wrapper_1ab60ce34334a3447dda230c072227bc9d" prot="public" virt="non-virtual"><scope>Client::Wrapper::SerialPortWrapper</scope><name>WriteLine</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_client_1_1_mock_1_1_mock_serial_port" kind="class" language="C#" prot="public">
+    <compoundname>Client::Mock::MockSerialPort</compoundname>
+    <basecompoundref refid="interface_client_1_1_wrapper_1_1_i_serial_port" prot="public" virt="non-virtual">Client.Wrapper.ISerialPort</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_client_1_1_mock_1_1_mock_serial_port_1ae47141ecda6b35a95f8aa327c65fc852" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Client.Mock.MockSerialPort.isOpen</definition>
+        <argsstring></argsstring>
+        <name>isOpen</name>
+        <qualifiedname>Client.Mock.MockSerialPort.isOpen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MockSerialPort.cs" line="9" column="22" bodyfile="MockSerialPort.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_mock_1_1_mock_serial_port_1a0705ca5546e13ee62a26445d73e3fef1" prot="private" static="no" mutable="no">
+        <type>readonly Queue&lt; string &gt;</type>
+        <definition>readonly Queue&lt;string&gt; Client.Mock.MockSerialPort.responses</definition>
+        <argsstring></argsstring>
+        <name>responses</name>
+        <qualifiedname>Client.Mock.MockSerialPort.responses</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MockSerialPort.cs" line="10" column="32" bodyfile="MockSerialPort.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_client_1_1_mock_1_1_mock_serial_port_1a82fe3442b1fe5784b429c99720c0e322" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Client.Mock.MockSerialPort.IsOpen</definition>
+        <argsstring></argsstring>
+        <name>IsOpen</name>
+        <qualifiedname>Client.Mock.MockSerialPort.IsOpen</qualifiedname>
+        <reimplements refid="interface_client_1_1_wrapper_1_1_i_serial_port_1ac858605f94cc3050ac782815907e83a4">IsOpen</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MockSerialPort.cs" line="14" column="21" bodyfile="MockSerialPort.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_client_1_1_mock_1_1_mock_serial_port_1a8a60028a23970a14adc8b04c73696d29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Client.Mock.MockSerialPort.MockSerialPort</definition>
+        <argsstring>(Queue&lt; string &gt; responses)</argsstring>
+        <name>MockSerialPort</name>
+        <qualifiedname>Client.Mock.MockSerialPort.MockSerialPort</qualifiedname>
+        <param>
+          <type>Queue&lt; string &gt;</type>
+          <declname>responses</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MockSerialPort.cs" line="12" column="16" bodyfile="MockSerialPort.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_mock_1_1_mock_serial_port_1a698c2f42f611a8fbf8a2a0d4640cffab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Mock.MockSerialPort.Open</definition>
+        <argsstring>()</argsstring>
+        <name>Open</name>
+        <qualifiedname>Client.Mock.MockSerialPort.Open</qualifiedname>
+        <reimplements refid="interface_client_1_1_wrapper_1_1_i_serial_port_1a31dcb0feb9ed7015d1738aeda281366e">Open</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MockSerialPort.cs" line="16" column="21" bodyfile="MockSerialPort.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_mock_1_1_mock_serial_port_1a9d7dd1511dac1c746e08f0aa02ac2dd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Mock.MockSerialPort.Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <qualifiedname>Client.Mock.MockSerialPort.Close</qualifiedname>
+        <reimplements refid="interface_client_1_1_wrapper_1_1_i_serial_port_1a79445ab7bcead8f34203ea0580806498">Close</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MockSerialPort.cs" line="18" column="21" bodyfile="MockSerialPort.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_mock_1_1_mock_serial_port_1a5722470dfe676b8306b5f791f0154a48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Mock.MockSerialPort.WriteLine</definition>
+        <argsstring>(string message)</argsstring>
+        <name>WriteLine</name>
+        <qualifiedname>Client.Mock.MockSerialPort.WriteLine</qualifiedname>
+        <reimplements refid="interface_client_1_1_wrapper_1_1_i_serial_port_1a8cf4f191536d205c68c5a237abf62111">WriteLine</reimplements>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MockSerialPort.cs" line="20" column="21" bodyfile="MockSerialPort.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_mock_1_1_mock_serial_port_1ac018cc1e02551fd263b0e7a89106d889" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Client.Mock.MockSerialPort.ReadLine</definition>
+        <argsstring>()</argsstring>
+        <name>ReadLine</name>
+        <qualifiedname>Client.Mock.MockSerialPort.ReadLine</qualifiedname>
+        <reimplements refid="interface_client_1_1_wrapper_1_1_i_serial_port_1a26493501a88b3c5060b541ed3f3dae6a">ReadLine</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MockSerialPort.cs" line="22" column="23" bodyfile="MockSerialPort.cs" bodystart="22" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Client.Mock.MockSerialPort</label>
+        <link refid="class_client_1_1_mock_1_1_mock_serial_port"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ISerialPort</label>
+        <link refid="interface_client_1_1_wrapper_1_1_i_serial_port"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Client.Mock.MockSerialPort</label>
+        <link refid="class_client_1_1_mock_1_1_mock_serial_port"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ISerialPort</label>
+        <link refid="interface_client_1_1_wrapper_1_1_i_serial_port"/>
+      </node>
+    </collaborationgraph>
+    <location file="MockSerialPort.cs" line="7" column="11" bodyfile="MockSerialPort.cs" bodystart="8" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_client_1_1_mock_1_1_mock_serial_port_1a9d7dd1511dac1c746e08f0aa02ac2dd7" prot="public" virt="non-virtual"><scope>Client::Mock::MockSerialPort</scope><name>Close</name></member>
+      <member refid="class_client_1_1_mock_1_1_mock_serial_port_1a82fe3442b1fe5784b429c99720c0e322" prot="public" virt="non-virtual"><scope>Client::Mock::MockSerialPort</scope><name>IsOpen</name></member>
+      <member refid="class_client_1_1_mock_1_1_mock_serial_port_1ae47141ecda6b35a95f8aa327c65fc852" prot="private" virt="non-virtual"><scope>Client::Mock::MockSerialPort</scope><name>isOpen</name></member>
+      <member refid="class_client_1_1_mock_1_1_mock_serial_port_1a8a60028a23970a14adc8b04c73696d29" prot="public" virt="non-virtual"><scope>Client::Mock::MockSerialPort</scope><name>MockSerialPort</name></member>
+      <member refid="class_client_1_1_mock_1_1_mock_serial_port_1a698c2f42f611a8fbf8a2a0d4640cffab" prot="public" virt="non-virtual"><scope>Client::Mock::MockSerialPort</scope><name>Open</name></member>
+      <member refid="class_client_1_1_mock_1_1_mock_serial_port_1ac018cc1e02551fd263b0e7a89106d889" prot="public" virt="non-virtual"><scope>Client::Mock::MockSerialPort</scope><name>ReadLine</name></member>
+      <member refid="class_client_1_1_mock_1_1_mock_serial_port_1a0705ca5546e13ee62a26445d73e3fef1" prot="private" virt="non-virtual"><scope>Client::Mock::MockSerialPort</scope><name>responses</name></member>
+      <member refid="class_client_1_1_mock_1_1_mock_serial_port_1a5722470dfe676b8306b5f791f0154a48" prot="public" virt="non-virtual"><scope>Client::Mock::MockSerialPort</scope><name>WriteLine</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

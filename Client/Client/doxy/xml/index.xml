@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.12.0" xml:lang="en-US">
+  <compound refid="class_client_1_1_form1" kind="class"><name>Client::Form1</name>
+    <member refid="class_client_1_1_form1_1a185955cde9c2f656d01bfcb3d39ae669" kind="variable"><name>serialPort</name></member>
+    <member refid="class_client_1_1_form1_1ad6d24bef5b6f67bb58014305cd728b3c" kind="variable"><name>playerOneScore</name></member>
+    <member refid="class_client_1_1_form1_1a2952f6e051c01c3ca8fc5b39b4b8ab33" kind="variable"><name>playerTwoScore</name></member>
+    <member refid="class_client_1_1_form1_1aadfe4ff23765835a7b346180b803a6fd" kind="variable"><name>playerOneMove</name></member>
+    <member refid="class_client_1_1_form1_1a48e81b9b53818c3d231b1683e420d675" kind="variable"><name>playerTwoMove</name></member>
+    <member refid="class_client_1_1_form1_1a653f93ccce2f49da4cc1deefc15c2170" kind="variable"><name>mode</name></member>
+    <member refid="class_client_1_1_form1_1a92c42412175acf41b630a22bbde27cb4" kind="variable"><name>filePath</name></member>
+    <member refid="class_client_1_1_form1_1a81e60c4946d887d17dd5e572548c38f4" kind="variable"><name>components</name></member>
+    <member refid="class_client_1_1_form1_1af08005b3c27d990549922c026491c434" kind="variable"><name>btnRockOne</name></member>
+    <member refid="class_client_1_1_form1_1aefc3a02a12b29532a069e80b3d8ec8b9" kind="variable"><name>lblClientScore</name></member>
+    <member refid="class_client_1_1_form1_1a6eb210f9a89ee66dfc44ea51e9b1e7b3" kind="variable"><name>lblServerScore</name></member>
+    <member refid="class_client_1_1_form1_1a1065d4c257beea04ea4f364427602b29" kind="variable"><name>btnPaperOne</name></member>
+    <member refid="class_client_1_1_form1_1a30d297953edf8d757b0234ccc627642e" kind="variable"><name>btnScissorsOne</name></member>
+    <member refid="class_client_1_1_form1_1a5d6226940d45a88d33e0b9890c2e1366" kind="variable"><name>lblMessage</name></member>
+    <member refid="class_client_1_1_form1_1a60d7974f309a9dac05bdf9da87b12882" kind="variable"><name>imgPlayerOneMove</name></member>
+    <member refid="class_client_1_1_form1_1a3df08d62e14a729748fb9e11042410d3" kind="variable"><name>label1</name></member>
+    <member refid="class_client_1_1_form1_1a397885fad1fad3b6d87a59211044d799" kind="variable"><name>imgPlayerTwoMove</name></member>
+    <member refid="class_client_1_1_form1_1a379a0edc20d913879ae7055e387a69f3" kind="variable"><name>btnRockTwo</name></member>
+    <member refid="class_client_1_1_form1_1af9bfe43c77e2a8e22dc680e5c19f5ef1" kind="variable"><name>btnPaperTwo</name></member>
+    <member refid="class_client_1_1_form1_1a768dd319ba83466854d0475c34249fe2" kind="variable"><name>btnScissorsTwo</name></member>
+    <member refid="class_client_1_1_form1_1a720af40cf580c9c5c63379dc71c75c86" kind="variable"><name>btnConfig</name></member>
+    <member refid="class_client_1_1_form1_1a3d5bdddace4e58c76418106609df13b5" kind="variable"><name>btnShow</name></member>
+    <member refid="class_client_1_1_form1_1a5e6bc7be3aa013055d688d37d474365f" kind="function"><name>Form1</name></member>
+    <member refid="class_client_1_1_form1_1aa1759faaede73c635c41e7a2a9e5aec6" kind="function"><name>Form1_Load</name></member>
+    <member refid="class_client_1_1_form1_1aeeeb12cfc4145c4190a6f3116b04072e" kind="function"><name>SetupSerialPort</name></member>
+    <member refid="class_client_1_1_form1_1a77a903706812b496f06a9bd3276a6f1a" kind="function"><name>btnRockOne_Click</name></member>
+    <member refid="class_client_1_1_form1_1a1b0be631fa2851885cece0f6b41b2070" kind="function"><name>btnPaperOne_Click</name></member>
+    <member refid="class_client_1_1_form1_1a3791a2f228cea60ef1fa370aed308676" kind="function"><name>btnScissorsOne_Click</name></member>
+    <member refid="class_client_1_1_form1_1a6a6de04e535f41105483db945ff9919c" kind="function"><name>btnRockTwo_Click</name></member>
+    <member refid="class_client_1_1_form1_1ae6f7802cdb51a3182829d720fbe81029" kind="function"><name>btnPaperTwo_Click</name></member>
+    <member refid="class_client_1_1_form1_1a3640ac34f381047b60c8d3b06a3bc9d5" kind="function"><name>btnScissorsTwo_Click</name></member>
+    <member refid="class_client_1_1_form1_1a41e426e3834064f4aeff24f941b79525" kind="function"><name>btnConfig_Click</name></member>
+    <member refid="class_client_1_1_form1_1a96d947cef8e6d5a771376bc0abbd0453" kind="function"><name>btnShow_Click</name></member>
+    <member refid="class_client_1_1_form1_1a7b380994640d69a8e23f62dcecd36874" kind="function"><name>PlayerOneMove</name></member>
+    <member refid="class_client_1_1_form1_1abcda4211e4a748905acd83685d925b01" kind="function"><name>PlayerTwoMove</name></member>
+    <member refid="class_client_1_1_form1_1a0143e241834bf02bc5e8e1ef0b310062" kind="function"><name>SerialPortDataReceived</name></member>
+    <member refid="class_client_1_1_form1_1a075cb67add188d1fcbb0abc9f03b2daa" kind="function"><name>ProcessServerResponse</name></member>
+    <member refid="class_client_1_1_form1_1ad1e4ebe824081759bbb892bfdbd25d4d" kind="function"><name>ShowGameOverDialog</name></member>
+    <member refid="class_client_1_1_form1_1a7f8e343f71dedc23fec4f31789af2a8f" kind="function"><name>ResetGame</name></member>
+    <member refid="class_client_1_1_form1_1a25ceff2182fada25e632c054d16a57ba" kind="function"><name>calcScore</name></member>
+    <member refid="class_client_1_1_form1_1a9394c5890aab8d612884247142c9ad02" kind="function"><name>MainForm_FormClosing</name></member>
+    <member refid="class_client_1_1_form1_1a345e054f7e4ba4e9d6f241c23d4c7bf4" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_client_1_1_form1_1a8c1d51c8b86be3070839f09ff4384dd6" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="class_client_1_1_form2" kind="class"><name>Client::Form2</name>
+    <member refid="class_client_1_1_form2_1a148df06fede9fc34e0c327ca6aafada1" kind="variable"><name>components</name></member>
+    <member refid="class_client_1_1_form2_1ae4e0dcdee758fff324725778efddef61" kind="variable"><name>radioManAi</name></member>
+    <member refid="class_client_1_1_form2_1a1d425d2d014dd8901500bbf0d4b4c0dd" kind="variable"><name>radioManMan</name></member>
+    <member refid="class_client_1_1_form2_1abc56dd5cdf48f75d4f41575e891991b0" kind="variable"><name>radioAiAi</name></member>
+    <member refid="class_client_1_1_form2_1ac93435f85694c7ab419c39785a14f071" kind="variable"><name>btnSave</name></member>
+    <member refid="class_client_1_1_form2_1a8e5d6439541a130137680af24f5dc5fb" kind="variable"><name>btnLoad</name></member>
+    <member refid="class_client_1_1_form2_1afd5e7407d19c67c20744ee39fd2c8b74" kind="function"><name>Form2</name></member>
+    <member refid="class_client_1_1_form2_1a2e36d5d6cfe4c2b43777236d64076ae0" kind="function"><name>btnSave_Click</name></member>
+    <member refid="class_client_1_1_form2_1a9cb762bc14d6a4f64f5164d2bd3f88f4" kind="function"><name>btnLoad_Click</name></member>
+    <member refid="class_client_1_1_form2_1a5903e4c321c3575618f35a90328cbc36" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_client_1_1_form2_1ae69f0d9a0d50348f6e6f7286de1ecf23" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="interface_client_1_1_wrapper_1_1_i_serial_port" kind="interface"><name>Client::Wrapper::ISerialPort</name>
+    <member refid="interface_client_1_1_wrapper_1_1_i_serial_port_1ac858605f94cc3050ac782815907e83a4" kind="property"><name>IsOpen</name></member>
+    <member refid="interface_client_1_1_wrapper_1_1_i_serial_port_1a31dcb0feb9ed7015d1738aeda281366e" kind="function"><name>Open</name></member>
+    <member refid="interface_client_1_1_wrapper_1_1_i_serial_port_1a79445ab7bcead8f34203ea0580806498" kind="function"><name>Close</name></member>
+    <member refid="interface_client_1_1_wrapper_1_1_i_serial_port_1a8cf4f191536d205c68c5a237abf62111" kind="function"><name>WriteLine</name></member>
+    <member refid="interface_client_1_1_wrapper_1_1_i_serial_port_1a26493501a88b3c5060b541ed3f3dae6a" kind="function"><name>ReadLine</name></member>
+  </compound>
+  <compound refid="class_client_1_1_mock_1_1_mock_serial_port" kind="class"><name>Client::Mock::MockSerialPort</name>
+    <member refid="class_client_1_1_mock_1_1_mock_serial_port_1ae47141ecda6b35a95f8aa327c65fc852" kind="variable"><name>isOpen</name></member>
+    <member refid="class_client_1_1_mock_1_1_mock_serial_port_1a0705ca5546e13ee62a26445d73e3fef1" kind="variable"><name>responses</name></member>
+    <member refid="class_client_1_1_mock_1_1_mock_serial_port_1a82fe3442b1fe5784b429c99720c0e322" kind="property"><name>IsOpen</name></member>
+    <member refid="class_client_1_1_mock_1_1_mock_serial_port_1a8a60028a23970a14adc8b04c73696d29" kind="function"><name>MockSerialPort</name></member>
+    <member refid="class_client_1_1_mock_1_1_mock_serial_port_1a698c2f42f611a8fbf8a2a0d4640cffab" kind="function"><name>Open</name></member>
+    <member refid="class_client_1_1_mock_1_1_mock_serial_port_1a9d7dd1511dac1c746e08f0aa02ac2dd7" kind="function"><name>Close</name></member>
+    <member refid="class_client_1_1_mock_1_1_mock_serial_port_1a5722470dfe676b8306b5f791f0154a48" kind="function"><name>WriteLine</name></member>
+    <member refid="class_client_1_1_mock_1_1_mock_serial_port_1ac018cc1e02551fd263b0e7a89106d889" kind="function"><name>ReadLine</name></member>
+  </compound>
+  <compound refid="class_client_1_1_program" kind="class"><name>Client::Program</name>
+    <member refid="class_client_1_1_program_1a8e92853b75adb3e53fb8274bf0ff8e27" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_client_1_1_properties_1_1_resources" kind="class"><name>Client::Properties::Resources</name>
+    <member refid="class_client_1_1_properties_1_1_resources_1a4068ca08f63290f92c4dc403905a84a0" kind="variable"><name>resourceMan</name></member>
+    <member refid="class_client_1_1_properties_1_1_resources_1adf56abae78f6f6eb424047d93b5dc5b2" kind="variable"><name>resourceCulture</name></member>
+    <member refid="class_client_1_1_properties_1_1_resources_1a63776b58e75882016a7e163d308d504d" kind="property"><name>ResourceManager</name></member>
+    <member refid="class_client_1_1_properties_1_1_resources_1ad23420a45787e86c655d298e598d7020" kind="property"><name>Culture</name></member>
+    <member refid="class_client_1_1_properties_1_1_resources_1a8cf2e20ec585f2390d4d0409d0038467" kind="property"><name>paper</name></member>
+    <member refid="class_client_1_1_properties_1_1_resources_1a93741c04ef6ad4dd6204f0ce4d7b95f4" kind="property"><name>paper1</name></member>
+    <member refid="class_client_1_1_properties_1_1_resources_1abb1564872cfdd72c7fd6e32f532a2b21" kind="property"><name>rock</name></member>
+    <member refid="class_client_1_1_properties_1_1_resources_1ab8dc4b2f070eab326a7752feea71ba43" kind="property"><name>scissors</name></member>
+    <member refid="class_client_1_1_properties_1_1_resources_1aa027928c32d7883eb7e4c68ddf3344eb" kind="function"><name>Resources</name></member>
+  </compound>
+  <compound refid="class_client_1_1_wrapper_1_1_serial_port_wrapper" kind="class"><name>Client::Wrapper::SerialPortWrapper</name>
+    <member refid="class_client_1_1_wrapper_1_1_serial_port_wrapper_1a189c1092d79b7e9d24fcde3de6ab4720" kind="variable"><name>serialPort</name></member>
+    <member refid="class_client_1_1_wrapper_1_1_serial_port_wrapper_1a791804e1eb2dd2e0877d75a10cd4470b" kind="property"><name>IsOpen</name></member>
+    <member refid="class_client_1_1_wrapper_1_1_serial_port_wrapper_1a39054212326d16c316d4895c7598475b" kind="function"><name>SerialPortWrapper</name></member>
+    <member refid="class_client_1_1_wrapper_1_1_serial_port_wrapper_1ad5675649d6bd8a76d70b601d07069d97" kind="function"><name>Open</name></member>
+    <member refid="class_client_1_1_wrapper_1_1_serial_port_wrapper_1aa15d876212978fbf41ca391f2e093952" kind="function"><name>Close</name></member>
+    <member refid="class_client_1_1_wrapper_1_1_serial_port_wrapper_1ab60ce34334a3447dda230c072227bc9d" kind="function"><name>WriteLine</name></member>
+    <member refid="class_client_1_1_wrapper_1_1_serial_port_wrapper_1ad2e440ef0c1dd1ab09e8af081f800702" kind="function"><name>ReadLine</name></member>
+  </compound>
+  <compound refid="namespace_client" kind="namespace"><name>Client</name>
+  </compound>
+  <compound refid="namespace_client_1_1_mock" kind="namespace"><name>Client::Mock</name>
+  </compound>
+  <compound refid="namespace_client_1_1_properties" kind="namespace"><name>Client::Properties</name>
+  </compound>
+  <compound refid="namespace_client_1_1_wrapper" kind="namespace"><name>Client::Wrapper</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system" kind="namespace"><name>global::System</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_collections_1_1_generic" kind="namespace"><name>global::System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_drawing" kind="namespace"><name>global::System::Drawing</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_i_o" kind="namespace"><name>global::System::IO</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_linq" kind="namespace"><name>global::System::Linq</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_net_1_1_http" kind="namespace"><name>global::System::Net::Http</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_threading" kind="namespace"><name>global::System::Threading</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_threading_1_1_tasks" kind="namespace"><name>global::System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_windows_1_1_forms" kind="namespace"><name>global::System::Windows::Forms</name>
+  </compound>
+  <compound refid="namespacestatic" kind="namespace"><name>static</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_code_dom" kind="namespace"><name>System::CodeDom</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_component_model" kind="namespace"><name>System::ComponentModel</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data" kind="namespace"><name>System::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_drawing" kind="namespace"><name>System::Drawing</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o_1_1_ports" kind="namespace"><name>System::IO::Ports</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection_1_1_emit" kind="namespace"><name>System::Reflection::Emit</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services_1_1_java_script_1_1_j_s_type" kind="namespace"><name>System::Runtime::InteropServices::JavaScript::JSType</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading" kind="namespace"><name>System::Threading</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_forms" kind="namespace"><name>System::Windows::Forms</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_forms_1_1_visual_styles_1_1_visual_style_element_1_1_button" kind="namespace"><name>System::Windows::Forms::VisualStyles::VisualStyleElement::Button</name>
+  </compound>
+  <compound refid="namespace_system_1_1_xml_1_1_linq" kind="namespace"><name>System::Xml::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_xml_1_1_serialization" kind="namespace"><name>System::Xml::Serialization</name>
+  </compound>
+  <compound refid="_form1_8cs" kind="file"><name>Form1.cs</name>
+  </compound>
+  <compound refid="_form1_8_designer_8cs" kind="file"><name>Form1.Designer.cs</name>
+  </compound>
+  <compound refid="_form2_8cs" kind="file"><name>Form2.cs</name>
+  </compound>
+  <compound refid="_form2_8_designer_8cs" kind="file"><name>Form2.Designer.cs</name>
+  </compound>
+  <compound refid="_i_serial_port_8cs" kind="file"><name>ISerialPort.cs</name>
+  </compound>
+  <compound refid="_mock_serial_port_8cs" kind="file"><name>MockSerialPort.cs</name>
+  </compound>
+  <compound refid="net8_80-windows_2_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v8.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="net8_80_2_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v8.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="net8_80-windows_2_client_8_assembly_info_8cs" kind="file"><name>Client.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="net8_80_2_client_8_assembly_info_8cs" kind="file"><name>Client.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="net8_80-windows_2_client_8_global_usings_8g_8cs" kind="file"><name>Client.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="net8_80_2_client_8_global_usings_8g_8cs" kind="file"><name>Client.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_resources_8_designer_8cs" kind="file"><name>Resources.Designer.cs</name>
+  </compound>
+  <compound refid="dir_a71c3b2ad23b9ff58220dd012d201987" kind="dir"><name>obj/Debug</name>
+  </compound>
+  <compound refid="dir_4ad6c4ce518a9fa81f4ccf8af5f59991" kind="dir"><name>obj/Debug/net8.0</name>
+  </compound>
+  <compound refid="dir_7847f6bd3b34c64ead7d39305ac8e6ba" kind="dir"><name>obj/Debug/net8.0-windows</name>
+  </compound>
+  <compound refid="dir_43724e81dd40e09f32417973865cdd64" kind="dir"><name>obj</name>
+  </compound>
+  <compound refid="dir_d051c76eebdc544d9c3d734575641c72" kind="dir"><name>Properties</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,900 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_client_1_1_form1" kind="class" language="C#" prot="public">
+    <compoundname>Client::Form1</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_client_1_1_form1_1a185955cde9c2f656d01bfcb3d39ae669" prot="private" static="no" mutable="no">
+        <type>SerialPort</type>
+        <definition>SerialPort Client.Form1.serialPort</definition>
+        <argsstring></argsstring>
+        <name>serialPort</name>
+        <qualifiedname>Client.Form1.serialPort</qualifiedname>
+        <briefdescription>
+<para>Serial port for communication. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="21" column="28" bodyfile="Form1.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_form1_1ad6d24bef5b6f67bb58014305cd728b3c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Client.Form1.playerOneScore</definition>
+        <argsstring></argsstring>
+        <name>playerOneScore</name>
+        <qualifiedname>Client.Form1.playerOneScore</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Score of Player One. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="26" column="21" bodyfile="Form1.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_form1_1a2952f6e051c01c3ca8fc5b39b4b8ab33" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Client.Form1.playerTwoScore</definition>
+        <argsstring></argsstring>
+        <name>playerTwoScore</name>
+        <qualifiedname>Client.Form1.playerTwoScore</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Score of Player Two. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="31" column="21" bodyfile="Form1.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_form1_1aadfe4ff23765835a7b346180b803a6fd" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Client.Form1.playerOneMove</definition>
+        <argsstring></argsstring>
+        <name>playerOneMove</name>
+        <qualifiedname>Client.Form1.playerOneMove</qualifiedname>
+        <briefdescription>
+<para>Move selected by Player One. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="36" column="24" bodyfile="Form1.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_form1_1a48e81b9b53818c3d231b1683e420d675" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Client.Form1.playerTwoMove</definition>
+        <argsstring></argsstring>
+        <name>playerTwoMove</name>
+        <qualifiedname>Client.Form1.playerTwoMove</qualifiedname>
+        <briefdescription>
+<para>Move selected by Player Two. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="41" column="24" bodyfile="Form1.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_form1_1a653f93ccce2f49da4cc1deefc15c2170" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Client.Form1.mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <qualifiedname>Client.Form1.mode</qualifiedname>
+        <briefdescription>
+<para>Current game mode. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="46" column="24" bodyfile="Form1.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_form1_1a92c42412175acf41b630a22bbde27cb4" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Client.Form1.filePath</definition>
+        <argsstring></argsstring>
+        <name>filePath</name>
+        <qualifiedname>Client.Form1.filePath</qualifiedname>
+        <initializer>= &quot;config.xml&quot;</initializer>
+        <briefdescription>
+<para>File path for the configuration file. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="51" column="24" bodyfile="Form1.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_form1_1a81e60c4946d887d17dd5e572548c38f4" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer Client.Form1.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <qualifiedname>Client.Form1.components</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="8" column="48" bodyfile="Form1.Designer.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_form1_1af08005b3c27d990549922c026491c434" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button Client.Form1.btnRockOne</definition>
+        <argsstring></argsstring>
+        <name>btnRockOne</name>
+        <qualifiedname>Client.Form1.btnRockOne</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="221" column="24" bodyfile="Form1.Designer.cs" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_form1_1aefc3a02a12b29532a069e80b3d8ec8b9" prot="private" static="no" mutable="no">
+        <type>Label</type>
+        <definition>Label Client.Form1.lblClientScore</definition>
+        <argsstring></argsstring>
+        <name>lblClientScore</name>
+        <qualifiedname>Client.Form1.lblClientScore</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="222" column="23" bodyfile="Form1.Designer.cs" bodystart="222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_form1_1a6eb210f9a89ee66dfc44ea51e9b1e7b3" prot="private" static="no" mutable="no">
+        <type>Label</type>
+        <definition>Label Client.Form1.lblServerScore</definition>
+        <argsstring></argsstring>
+        <name>lblServerScore</name>
+        <qualifiedname>Client.Form1.lblServerScore</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="223" column="23" bodyfile="Form1.Designer.cs" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_form1_1a1065d4c257beea04ea4f364427602b29" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button Client.Form1.btnPaperOne</definition>
+        <argsstring></argsstring>
+        <name>btnPaperOne</name>
+        <qualifiedname>Client.Form1.btnPaperOne</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="224" column="24" bodyfile="Form1.Designer.cs" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_form1_1a30d297953edf8d757b0234ccc627642e" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button Client.Form1.btnScissorsOne</definition>
+        <argsstring></argsstring>
+        <name>btnScissorsOne</name>
+        <qualifiedname>Client.Form1.btnScissorsOne</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="225" column="24" bodyfile="Form1.Designer.cs" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_form1_1a5d6226940d45a88d33e0b9890c2e1366" prot="private" static="no" mutable="no">
+        <type>Label</type>
+        <definition>Label Client.Form1.lblMessage</definition>
+        <argsstring></argsstring>
+        <name>lblMessage</name>
+        <qualifiedname>Client.Form1.lblMessage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="226" column="23" bodyfile="Form1.Designer.cs" bodystart="226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_form1_1a60d7974f309a9dac05bdf9da87b12882" prot="private" static="no" mutable="no">
+        <type>PictureBox</type>
+        <definition>PictureBox Client.Form1.imgPlayerOneMove</definition>
+        <argsstring></argsstring>
+        <name>imgPlayerOneMove</name>
+        <qualifiedname>Client.Form1.imgPlayerOneMove</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="227" column="28" bodyfile="Form1.Designer.cs" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_form1_1a3df08d62e14a729748fb9e11042410d3" prot="private" static="no" mutable="no">
+        <type>Label</type>
+        <definition>Label Client.Form1.label1</definition>
+        <argsstring></argsstring>
+        <name>label1</name>
+        <qualifiedname>Client.Form1.label1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="228" column="23" bodyfile="Form1.Designer.cs" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_form1_1a397885fad1fad3b6d87a59211044d799" prot="private" static="no" mutable="no">
+        <type>PictureBox</type>
+        <definition>PictureBox Client.Form1.imgPlayerTwoMove</definition>
+        <argsstring></argsstring>
+        <name>imgPlayerTwoMove</name>
+        <qualifiedname>Client.Form1.imgPlayerTwoMove</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="229" column="28" bodyfile="Form1.Designer.cs" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_form1_1a379a0edc20d913879ae7055e387a69f3" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button Client.Form1.btnRockTwo</definition>
+        <argsstring></argsstring>
+        <name>btnRockTwo</name>
+        <qualifiedname>Client.Form1.btnRockTwo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="230" column="24" bodyfile="Form1.Designer.cs" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_form1_1af9bfe43c77e2a8e22dc680e5c19f5ef1" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button Client.Form1.btnPaperTwo</definition>
+        <argsstring></argsstring>
+        <name>btnPaperTwo</name>
+        <qualifiedname>Client.Form1.btnPaperTwo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="231" column="24" bodyfile="Form1.Designer.cs" bodystart="231" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_form1_1a768dd319ba83466854d0475c34249fe2" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button Client.Form1.btnScissorsTwo</definition>
+        <argsstring></argsstring>
+        <name>btnScissorsTwo</name>
+        <qualifiedname>Client.Form1.btnScissorsTwo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="232" column="24" bodyfile="Form1.Designer.cs" bodystart="232" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_form1_1a720af40cf580c9c5c63379dc71c75c86" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button Client.Form1.btnConfig</definition>
+        <argsstring></argsstring>
+        <name>btnConfig</name>
+        <qualifiedname>Client.Form1.btnConfig</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="233" column="24" bodyfile="Form1.Designer.cs" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_form1_1a3d5bdddace4e58c76418106609df13b5" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button Client.Form1.btnShow</definition>
+        <argsstring></argsstring>
+        <name>btnShow</name>
+        <qualifiedname>Client.Form1.btnShow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="234" column="24" bodyfile="Form1.Designer.cs" bodystart="234" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_client_1_1_form1_1a5e6bc7be3aa013055d688d37d474365f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Client.Form1.Form1</definition>
+        <argsstring>()</argsstring>
+        <name>Form1</name>
+        <qualifiedname>Client.Form1.Form1</qualifiedname>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_client_1_1_form1" kindref="compound">Form1</ref> class. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="56" column="16" bodyfile="Form1.cs" bodystart="56" bodyend="93"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_client_1_1_form1_1aa1759faaede73c635c41e7a2a9e5aec6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Form1.Form1_Load</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Form1_Load</name>
+        <qualifiedname>Client.Form1.Form1_Load</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Handles the Load event of the form. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="98" column="22" bodyfile="Form1.cs" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_form1_1aeeeb12cfc4145c4190a6f3116b04072e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Form1.SetupSerialPort</definition>
+        <argsstring>()</argsstring>
+        <name>SetupSerialPort</name>
+        <qualifiedname>Client.Form1.SetupSerialPort</qualifiedname>
+        <briefdescription>
+<para>Configures the serial port for communication. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="103" column="22" bodyfile="Form1.cs" bodystart="103" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_form1_1a77a903706812b496f06a9bd3276a6f1a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Form1.btnRockOne_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btnRockOne_Click</name>
+        <qualifiedname>Client.Form1.btnRockOne_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Handles the Rock button click event for Player One. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="121" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_form1_1a1b0be631fa2851885cece0f6b41b2070" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Form1.btnPaperOne_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btnPaperOne_Click</name>
+        <qualifiedname>Client.Form1.btnPaperOne_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Handles the Paper button click event for Player One. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="126" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_form1_1a3791a2f228cea60ef1fa370aed308676" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Form1.btnScissorsOne_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btnScissorsOne_Click</name>
+        <qualifiedname>Client.Form1.btnScissorsOne_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Handles the Scissors button click event for Player One. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="131" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_form1_1a6a6de04e535f41105483db945ff9919c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Form1.btnRockTwo_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btnRockTwo_Click</name>
+        <qualifiedname>Client.Form1.btnRockTwo_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Handles the Rock button click event for Player Two. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="136" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_form1_1ae6f7802cdb51a3182829d720fbe81029" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Form1.btnPaperTwo_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btnPaperTwo_Click</name>
+        <qualifiedname>Client.Form1.btnPaperTwo_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Handles the Paper button click event for Player Two. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="141" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_form1_1a3640ac34f381047b60c8d3b06a3bc9d5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Form1.btnScissorsTwo_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btnScissorsTwo_Click</name>
+        <qualifiedname>Client.Form1.btnScissorsTwo_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Handles the Scissors button click event for Player Two. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="146" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_form1_1a41e426e3834064f4aeff24f941b79525" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Form1.btnConfig_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btnConfig_Click</name>
+        <qualifiedname>Client.Form1.btnConfig_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Opens the configuration form. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="151" column="22" bodyfile="Form1.cs" bodystart="151" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_form1_1a96d947cef8e6d5a771376bc0abbd0453" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Form1.btnShow_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btnShow_Click</name>
+        <qualifiedname>Client.Form1.btnShow_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Sends the selected moves and mode to the server. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="160" column="22" bodyfile="Form1.cs" bodystart="160" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_form1_1a7b380994640d69a8e23f62dcecd36874" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Form1.PlayerOneMove</definition>
+        <argsstring>(string move)</argsstring>
+        <name>PlayerOneMove</name>
+        <qualifiedname>Client.Form1.PlayerOneMove</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>move</declname>
+        </param>
+        <briefdescription>
+<para>Sets the move for Player One. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>move</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The move chosen by Player One.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="184" column="22" bodyfile="Form1.cs" bodystart="184" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_form1_1abcda4211e4a748905acd83685d925b01" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Form1.PlayerTwoMove</definition>
+        <argsstring>(string move)</argsstring>
+        <name>PlayerTwoMove</name>
+        <qualifiedname>Client.Form1.PlayerTwoMove</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>move</declname>
+        </param>
+        <briefdescription>
+<para>Sets the move for Player Two. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>move</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The move chosen by Player Two.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="202" column="22" bodyfile="Form1.cs" bodystart="202" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_form1_1a0143e241834bf02bc5e8e1ef0b310062" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Form1.SerialPortDataReceived</definition>
+        <argsstring>(object sender, SerialDataReceivedEventArgs e)</argsstring>
+        <name>SerialPortDataReceived</name>
+        <qualifiedname>Client.Form1.SerialPortDataReceived</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>SerialDataReceivedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Handles data received from the serial port. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="214" column="22" bodyfile="Form1.cs" bodystart="214" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_form1_1a075cb67add188d1fcbb0abc9f03b2daa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Form1.ProcessServerResponse</definition>
+        <argsstring>(string response)</argsstring>
+        <name>ProcessServerResponse</name>
+        <qualifiedname>Client.Form1.ProcessServerResponse</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>response</declname>
+        </param>
+        <briefdescription>
+<para>Processes the response from the server. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>response</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The response received from the server.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="227" column="22" bodyfile="Form1.cs" bodystart="227" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_form1_1ad1e4ebe824081759bbb892bfdbd25d4d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Form1.ShowGameOverDialog</definition>
+        <argsstring>()</argsstring>
+        <name>ShowGameOverDialog</name>
+        <qualifiedname>Client.Form1.ShowGameOverDialog</qualifiedname>
+        <briefdescription>
+<para>Displays a dialog when the game is over. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="269" column="22" bodyfile="Form1.cs" bodystart="269" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_form1_1a7f8e343f71dedc23fec4f31789af2a8f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Form1.ResetGame</definition>
+        <argsstring>()</argsstring>
+        <name>ResetGame</name>
+        <qualifiedname>Client.Form1.ResetGame</qualifiedname>
+        <briefdescription>
+<para>Resets the game to its initial state. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="287" column="22" bodyfile="Form1.cs" bodystart="287" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_form1_1a25ceff2182fada25e632c054d16a57ba" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Form1.calcScore</definition>
+        <argsstring>(char winner)</argsstring>
+        <name>calcScore</name>
+        <qualifiedname>Client.Form1.calcScore</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>winner</declname>
+        </param>
+        <briefdescription>
+<para>Calculates and updates the score based on the winner. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>winner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The character representing the winner (&apos;C&apos; for <ref refid="namespace_client" kindref="compound">Client</ref>, &apos;S&apos; for Server).</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="304" column="22" bodyfile="Form1.cs" bodystart="304" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_form1_1a9394c5890aab8d612884247142c9ad02" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Form1.MainForm_FormClosing</definition>
+        <argsstring>(object sender, FormClosingEventArgs e)</argsstring>
+        <name>MainForm_FormClosing</name>
+        <qualifiedname>Client.Form1.MainForm_FormClosing</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>FormClosingEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Handles the FormClosing event of the main form. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.cs" line="328" column="22" bodyfile="Form1.cs" bodystart="328" bodyend="334"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_form1_1a345e054f7e4ba4e9d6f241c23d4c7bf4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Form1.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>Client.Form1.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="29" column="22" bodyfile="Form1.Designer.cs" bodystart="29" bodyend="218"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_client_1_1_form1_1a8c1d51c8b86be3070839f09ff4384dd6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Client.Form1.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>Client.Form1.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Form1.Designer.cs" line="14" column="33" bodyfile="Form1.Designer.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents the main form of the application. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Client.Form1</label>
+        <link refid="class_client_1_1_form1"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Form</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Client.Form1</label>
+        <link refid="class_client_1_1_form1"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>components</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>btnConfig</edgelabel>
+          <edgelabel>btnPaperOne</edgelabel>
+          <edgelabel>btnPaperTwo</edgelabel>
+          <edgelabel>btnRockOne</edgelabel>
+          <edgelabel>btnRockTwo</edgelabel>
+          <edgelabel>btnScissorsOne</edgelabel>
+          <edgelabel>btnScissorsTwo</edgelabel>
+          <edgelabel>btnShow</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="4">
+        <label>Button</label>
+      </node>
+      <node id="3">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="Form1.cs" line="16" column="19" bodyfile="Form1.Designer.cs" bodystart="4" bodyend="235"/>
+    <listofallmembers>
+      <member refid="class_client_1_1_form1_1a720af40cf580c9c5c63379dc71c75c86" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>btnConfig</name></member>
+      <member refid="class_client_1_1_form1_1a41e426e3834064f4aeff24f941b79525" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>btnConfig_Click</name></member>
+      <member refid="class_client_1_1_form1_1a1065d4c257beea04ea4f364427602b29" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>btnPaperOne</name></member>
+      <member refid="class_client_1_1_form1_1a1b0be631fa2851885cece0f6b41b2070" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>btnPaperOne_Click</name></member>
+      <member refid="class_client_1_1_form1_1af9bfe43c77e2a8e22dc680e5c19f5ef1" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>btnPaperTwo</name></member>
+      <member refid="class_client_1_1_form1_1ae6f7802cdb51a3182829d720fbe81029" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>btnPaperTwo_Click</name></member>
+      <member refid="class_client_1_1_form1_1af08005b3c27d990549922c026491c434" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>btnRockOne</name></member>
+      <member refid="class_client_1_1_form1_1a77a903706812b496f06a9bd3276a6f1a" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>btnRockOne_Click</name></member>
+      <member refid="class_client_1_1_form1_1a379a0edc20d913879ae7055e387a69f3" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>btnRockTwo</name></member>
+      <member refid="class_client_1_1_form1_1a6a6de04e535f41105483db945ff9919c" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>btnRockTwo_Click</name></member>
+      <member refid="class_client_1_1_form1_1a30d297953edf8d757b0234ccc627642e" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>btnScissorsOne</name></member>
+      <member refid="class_client_1_1_form1_1a3791a2f228cea60ef1fa370aed308676" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>btnScissorsOne_Click</name></member>
+      <member refid="class_client_1_1_form1_1a768dd319ba83466854d0475c34249fe2" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>btnScissorsTwo</name></member>
+      <member refid="class_client_1_1_form1_1a3640ac34f381047b60c8d3b06a3bc9d5" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>btnScissorsTwo_Click</name></member>
+      <member refid="class_client_1_1_form1_1a3d5bdddace4e58c76418106609df13b5" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>btnShow</name></member>
+      <member refid="class_client_1_1_form1_1a96d947cef8e6d5a771376bc0abbd0453" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>btnShow_Click</name></member>
+      <member refid="class_client_1_1_form1_1a25ceff2182fada25e632c054d16a57ba" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>calcScore</name></member>
+      <member refid="class_client_1_1_form1_1a81e60c4946d887d17dd5e572548c38f4" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>components</name></member>
+      <member refid="class_client_1_1_form1_1a8c1d51c8b86be3070839f09ff4384dd6" prot="protected" virt="non-virtual"><scope>Client::Form1</scope><name>Dispose</name></member>
+      <member refid="class_client_1_1_form1_1a92c42412175acf41b630a22bbde27cb4" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>filePath</name></member>
+      <member refid="class_client_1_1_form1_1a5e6bc7be3aa013055d688d37d474365f" prot="public" virt="non-virtual"><scope>Client::Form1</scope><name>Form1</name></member>
+      <member refid="class_client_1_1_form1_1aa1759faaede73c635c41e7a2a9e5aec6" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>Form1_Load</name></member>
+      <member refid="class_client_1_1_form1_1a60d7974f309a9dac05bdf9da87b12882" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>imgPlayerOneMove</name></member>
+      <member refid="class_client_1_1_form1_1a397885fad1fad3b6d87a59211044d799" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>imgPlayerTwoMove</name></member>
+      <member refid="class_client_1_1_form1_1a345e054f7e4ba4e9d6f241c23d4c7bf4" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>InitializeComponent</name></member>
+      <member refid="class_client_1_1_form1_1a3df08d62e14a729748fb9e11042410d3" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>label1</name></member>
+      <member refid="class_client_1_1_form1_1aefc3a02a12b29532a069e80b3d8ec8b9" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>lblClientScore</name></member>
+      <member refid="class_client_1_1_form1_1a5d6226940d45a88d33e0b9890c2e1366" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>lblMessage</name></member>
+      <member refid="class_client_1_1_form1_1a6eb210f9a89ee66dfc44ea51e9b1e7b3" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>lblServerScore</name></member>
+      <member refid="class_client_1_1_form1_1a9394c5890aab8d612884247142c9ad02" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>MainForm_FormClosing</name></member>
+      <member refid="class_client_1_1_form1_1a653f93ccce2f49da4cc1deefc15c2170" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>mode</name></member>
+      <member refid="class_client_1_1_form1_1a7b380994640d69a8e23f62dcecd36874" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>PlayerOneMove</name></member>
+      <member refid="class_client_1_1_form1_1aadfe4ff23765835a7b346180b803a6fd" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>playerOneMove</name></member>
+      <member refid="class_client_1_1_form1_1ad6d24bef5b6f67bb58014305cd728b3c" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>playerOneScore</name></member>
+      <member refid="class_client_1_1_form1_1abcda4211e4a748905acd83685d925b01" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>PlayerTwoMove</name></member>
+      <member refid="class_client_1_1_form1_1a48e81b9b53818c3d231b1683e420d675" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>playerTwoMove</name></member>
+      <member refid="class_client_1_1_form1_1a2952f6e051c01c3ca8fc5b39b4b8ab33" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>playerTwoScore</name></member>
+      <member refid="class_client_1_1_form1_1a075cb67add188d1fcbb0abc9f03b2daa" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>ProcessServerResponse</name></member>
+      <member refid="class_client_1_1_form1_1a7f8e343f71dedc23fec4f31789af2a8f" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>ResetGame</name></member>
+      <member refid="class_client_1_1_form1_1a185955cde9c2f656d01bfcb3d39ae669" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>serialPort</name></member>
+      <member refid="class_client_1_1_form1_1a0143e241834bf02bc5e8e1ef0b310062" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>SerialPortDataReceived</name></member>
+      <member refid="class_client_1_1_form1_1aeeeb12cfc4145c4190a6f3116b04072e" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>SetupSerialPort</name></member>
+      <member refid="class_client_1_1_form1_1ad1e4ebe824081759bbb892bfdbd25d4d" prot="private" virt="non-virtual"><scope>Client::Form1</scope><name>ShowGameOverDialog</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

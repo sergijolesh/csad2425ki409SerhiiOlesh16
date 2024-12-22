@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uV7fKSQs4FVO1xTX/RgrljWtVjG9DSAWjiG58xbRofIzv331wEETGq4yAF/YRpcbJzdfaJfgqLNVubt9mim9Bw==",
+  "dgSpecHash": "XUqm2k0kYVPLOK6ziektjXnKlehsNJVSrFuihLIebvgDTtzyjDIW3eJsf1gqg908TVwNeVmfrON6ALeXE+8NmA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\serhi\\Desktop\\csad2425ki409SerhiiOlesh16\\Client\\Client\\Client.csproj",
+  "projectFilePath": "C:\\Users\\serhi\\Desktop\\dev\\Client\\Client\\Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\serhi\\.nuget\\packages\\runtime.android-arm.runtime.native.system.io.ports\\9.0.0\\runtime.android-arm.runtime.native.system.io.ports.9.0.0.nupkg.sha512",
     "C:\\Users\\serhi\\.nuget\\packages\\runtime.android-arm64.runtime.native.system.io.ports\\9.0.0\\runtime.android-arm64.runtime.native.system.io.ports.9.0.0.nupkg.sha512",
