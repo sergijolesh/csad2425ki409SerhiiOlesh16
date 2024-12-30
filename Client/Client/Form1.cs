@@ -18,37 +18,37 @@ namespace Client
         /// <summary>
         /// Serial port for communication.
         /// </summary>
-        private SerialPort serialPort;
+        public SerialPort serialPort;
 
         /// <summary>
         /// Score of Player One.
         /// </summary>
-        private int playerOneScore = 0;
+        public int playerOneScore = 0;
 
         /// <summary>
         /// Score of Player Two.
         /// </summary>
-        private int playerTwoScore = 0;
+        public int playerTwoScore = 0;
 
         /// <summary>
         /// Move selected by Player One.
         /// </summary>
-        private string playerOneMove;
+        public string playerOneMove;
 
         /// <summary>
         /// Move selected by Player Two.
         /// </summary>
-        private string playerTwoMove;
+        public string playerTwoMove;
 
         /// <summary>
         /// Current game mode.
         /// </summary>
-        private string mode;
+        public string mode;
 
         /// <summary>
         /// File path for the configuration file.
         /// </summary>
-        private string filePath = "config.xml";
+        public string filePath = "config.xml";
 
         /// <summary>
         /// Initializes a new instance of the <see cref="Form1"/> class.
@@ -56,7 +56,7 @@ namespace Client
         public Form1()
         {
             InitializeComponent();
-            SetupSerialPort();
+            SetupSerialPort("COM3");
 
             if (File.Exists(filePath))
             {
@@ -95,14 +95,14 @@ namespace Client
         /// <summary>
         /// Handles the Load event of the form.
         /// </summary>
-        private void Form1_Load(object sender, EventArgs e) { }
+        public void Form1_Load(object sender, EventArgs e) { }
 
         /// <summary>
         /// Configures the serial port for communication.
         /// </summary>
-        private void SetupSerialPort()
+        public void SetupSerialPort(string port)
         {
-            serialPort = new SerialPort("COM3", 115200);
+            serialPort = new SerialPort(port, 115200);
             serialPort.DataReceived += SerialPortDataReceived;
 
             try
@@ -118,37 +118,37 @@ namespace Client
         /// <summary>
         /// Handles the Rock button click event for Player One.
         /// </summary>
-        private void btnRockOne_Click(object sender, EventArgs e) => PlayerOneMove("Rock");
+        public void btnRockOne_Click(object sender, EventArgs e) => PlayerOneMove("Rock");
 
         /// <summary>
         /// Handles the Paper button click event for Player One.
         /// </summary>
-        private void btnPaperOne_Click(object sender, EventArgs e) => PlayerOneMove("Paper");
+        public void btnPaperOne_Click(object sender, EventArgs e) => PlayerOneMove("Paper");
 
         /// <summary>
         /// Handles the Scissors button click event for Player One.
         /// </summary>
-        private void btnScissorsOne_Click(object sender, EventArgs e) => PlayerOneMove("Scissors");
+        public void btnScissorsOne_Click(object sender, EventArgs e) => PlayerOneMove("Scissors");
 
         /// <summary>
         /// Handles the Rock button click event for Player Two.
         /// </summary>
-        private void btnRockTwo_Click(object sender, EventArgs e) => PlayerTwoMove("Rock");
+        public void btnRockTwo_Click(object sender, EventArgs e) => PlayerTwoMove("Rock");
 
         /// <summary>
         /// Handles the Paper button click event for Player Two.
         /// </summary>
-        private void btnPaperTwo_Click(object sender, EventArgs e) => PlayerTwoMove("Paper");
+        public void btnPaperTwo_Click(object sender, EventArgs e) => PlayerTwoMove("Paper");
 
         /// <summary>
         /// Handles the Scissors button click event for Player Two.
         /// </summary>
-        private void btnScissorsTwo_Click(object sender, EventArgs e) => PlayerTwoMove("Scissors");
+        public void btnScissorsTwo_Click(object sender, EventArgs e) => PlayerTwoMove("Scissors");
 
         /// <summary>
         /// Opens the configuration form.
         /// </summary>
-        private void btnConfig_Click(object sender, EventArgs e)
+        public void btnConfig_Click(object sender, EventArgs e)
         {
             Form2 newForm = new Form2();
             newForm.Show();
@@ -157,7 +157,7 @@ namespace Client
         /// <summary>
         /// Sends the selected moves and mode to the server.
         /// </summary>
-        private void btnShow_Click(object sender, EventArgs e)
+        public void btnShow_Click(object sender, EventArgs e)
         {
             if (mode == "ManVsAI")
             {
@@ -181,7 +181,7 @@ namespace Client
         /// Sets the move for Player One.
         /// </summary>
         /// <param name="move">The move chosen by Player One.</param>
-        private void PlayerOneMove(string move)
+        public void PlayerOneMove(string move)
         {
             playerOneMove = move;
             imgPlayerOneMove.Image = Image.FromFile("Check.png");
@@ -199,7 +199,7 @@ namespace Client
         /// Sets the move for Player Two.
         /// </summary>
         /// <param name="move">The move chosen by Player Two.</param>
-        private void PlayerTwoMove(string move)
+        public void PlayerTwoMove(string move)
         {
             playerTwoMove = move;
             imgPlayerTwoMove.Image = Image.FromFile("Check.png");
@@ -211,7 +211,7 @@ namespace Client
         /// <summary>
         /// Handles data received from the serial port.
         /// </summary>
-        private void SerialPortDataReceived(object sender, SerialDataReceivedEventArgs e)
+        public void SerialPortDataReceived(object sender, SerialDataReceivedEventArgs e)
         {
             string data = serialPort.ReadExisting();
             Invoke(new Action(() =>
@@ -224,7 +224,7 @@ namespace Client
         /// Processes the response from the server.
         /// </summary>
         /// <param name="response">The response received from the server.</param>
-        private void ProcessServerResponse(string response)
+        public void ProcessServerResponse(string response)
         {
             string[] lines = response.Split('\n');
 
@@ -232,7 +232,7 @@ namespace Client
             {
                 XDocument xmlDoc = XDocument.Load(filePath);
 
-                if ((bool)xmlDoc.Root.Element("ManVsMan"))
+                if (mode == "ManVsMan")
                 {
                     lblMessage.Text = response;
                     imgPlayerOneMove.Image = Image.FromFile(playerOneMove + ".png");
@@ -240,7 +240,7 @@ namespace Client
                     calcScore(response[0]);
                 }
 
-                if ((bool)xmlDoc.Root.Element("ManVsAI"))
+                if (mode == "ManVsAI")
                 {
                     lblMessage.Text = lines[1];
                     imgPlayerOneMove.Image = Image.FromFile(playerOneMove + ".png");
@@ -248,7 +248,7 @@ namespace Client
                     calcScore(lines[1][0]);
                 }
 
-                if ((bool)xmlDoc.Root.Element("AIvsAI"))
+                if (mode == "AIvsAI")
                 {
                     lblMessage.Text = lines[2];
                     imgPlayerOneMove.Image = Image.FromFile(lines[0] + ".png");
@@ -265,7 +265,7 @@ namespace Client
         /// <summary>
         /// Displays a dialog when the game is over.
         /// </summary>
-        private void ShowGameOverDialog()
+        public void ShowGameOverDialog()
         {
             string winner = playerOneScore == 3 ? "Client" : "Server";
             var result = MessageBox.Show($"{winner} won! Start a new game?", "Game Over", MessageBoxButtons.YesNo);
@@ -283,7 +283,7 @@ namespace Client
         /// <summary>
         /// Resets the game to its initial state.
         /// </summary>
-        private void ResetGame()
+        public void ResetGame()
         {
             playerOneScore = 0;
             playerTwoScore = 0;
@@ -300,7 +300,7 @@ namespace Client
         /// Calculates and updates the score based on the winner.
         /// </summary>
         /// <param name="winner">The character representing the winner ('C' for Client, 'S' for Server).</param>
-        private void calcScore(char winner)
+        public void calcScore(char winner)
         {
             if (winner == 'C')
             {
@@ -324,7 +324,7 @@ namespace Client
         /// <summary>
         /// Handles the FormClosing event of the main form.
         /// </summary>
-        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
+        public void MainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (serialPort != null && serialPort.IsOpen)
             {

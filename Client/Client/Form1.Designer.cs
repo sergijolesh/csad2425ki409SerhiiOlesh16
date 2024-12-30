@@ -218,19 +218,19 @@
         }
 
         #endregion
-        private Button btnRockOne;
-        private Label lblClientScore;
-        private Label lblServerScore;
-        private Button btnPaperOne;
-        private Button btnScissorsOne;
-        private Label lblMessage;
-        private PictureBox imgPlayerOneMove;
         private Label label1;
-        private PictureBox imgPlayerTwoMove;
         private Button btnRockTwo;
         private Button btnPaperTwo;
         private Button btnScissorsTwo;
         private Button btnConfig;
         private Button btnShow;
+        public Button btnRockOne;
+        public Button btnPaperOne;
+        public Button btnScissorsOne;
+        public Label lblClientScore;
+        public Label lblServerScore;
+        public Label lblMessage;
+        public PictureBox imgPlayerOneMove;
+        public PictureBox imgPlayerTwoMove;
     }
 }
